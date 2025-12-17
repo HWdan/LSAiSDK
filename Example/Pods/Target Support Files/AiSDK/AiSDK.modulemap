@@ -1,0 +1,6 @@
+framework module AiSDK {
+  umbrella header "AiSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
