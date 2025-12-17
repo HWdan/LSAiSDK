@@ -64,6 +64,10 @@
                                                        longitude:(double)longitude
                                                        timestamp:(NSTimeInterval)timestamp
                                                         callback:(HwBoolCallback _Nullable)callback;
+- (HwBluetoothTask *_Nullable) setCurrentGpsOrNetLocationWithLatitude:(double)latitude
+                                                            longitude:(double)longitude
+                                                            timestamp:(NSTimeInterval)timestamp
+                                                             callback:(HwBoolCallback _Nullable)callback;
 
 /*! @brief
  获取设备的ID get ID of the watch
@@ -797,6 +801,8 @@ typedef void (^HwGpsShouldUpdateCallback)(long validStartTime, long validEndTime
 
 
 - (HwBluetoothTask *_Nullable) setContactWithContacts:(NSArray<HwContact *> *_Nonnull)contacts
+                                    callback:(HwBoolCallback _Nullable)callback;
+- (HwBluetoothTask *_Nullable) setContactV2WithContacts:(NSArray<HwContact *> *_Nonnull)contacts
                                     callback:(HwBoolCallback _Nullable)callback;
 - (HwBluetoothTask *_Nullable) getContactsWithCallback:(void(^_Nonnull)(NSArray<HwContact *> *_Nullable contacts, NSError *_Nullable error))callback;
 

@@ -127,6 +127,7 @@ typedef NS_ENUM(NSInteger, HwLanguage) {
     HwLanguageSlovenian = 0x2E,             // 斯洛文尼亚语（Slovenian）
     HwLanguageCroatian = 0x2F,              // 克罗地亚语（Croatian）
     HwLanguageDanish = 0x30,                // 丹麦语（Danish）
+    HwLanguageKurdishSorani = 0x31,         // 库尔德语-索拉尼（KurdishSorani）
 };
 
 /*!

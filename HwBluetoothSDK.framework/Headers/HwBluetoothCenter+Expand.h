@@ -22,6 +22,10 @@
 - (void) removeCameraEventCallback:(HwCameraEventCallback _Nonnull)callback;
 - (void) removeAllCameraEventCallbacks;
 
+- (void) addCameraImageEventCallback:(HwCameraImageEventCallback _Nonnull)callback;
+- (void) removeCameraImageEventCallback:(HwCameraImageEventCallback _Nonnull)callback;
+- (void) removeAllCameraImageEventCallbacks;
+
 - (void) addCameraDelayEventCallback:(HwCameraDelayEventCallback _Nonnull)callback;
 - (void) removeCameraDelayEventCallback:(HwCameraDelayEventCallback _Nonnull)callback;
 - (void) removeAllCameraDelayEventCallbacks;

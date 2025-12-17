@@ -19,7 +19,10 @@ extern NSString *HwBD8002CharacteristicNotificationUUID;
 extern NSString *HwBDMediaServiceUUID;
 extern NSString *HwBD8003CharacteristicMainWriteUUID;
 extern NSString *HwBD8004CharacteristicNotificationUUID;
-extern NSString *HwBDVoiceCharacteristicUUID;
+
+// ================== file ====================
+extern NSString *HwBD8005CharacteristicMainWriteUUID;
+extern NSString *HwBD8006CharacteristicNotificationUUID;
 
 // ================== heart ====================
 extern NSString *HwBD_StandardHeartRateServiceUUID;
@@ -120,6 +123,7 @@ extern NSString *HwBluetoothDeviceReadyNotification;
 - (void) writeDataToOTANotificationCharacteristic:(NSData *)data;
 - (void) writeDataToOTAWriteCharacteristic:(NSData *)data;
 - (void) writeDataTo8001WriteCharacteristic:(NSData *)data;
+- (void) writeDataTo8005WriteCharacteristic:(NSData *)data;
 
 #pragma mark - RSSI
 /**

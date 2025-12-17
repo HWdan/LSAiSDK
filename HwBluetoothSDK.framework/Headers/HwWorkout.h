@@ -7,6 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import "HwTimeSection.h"
+#import "HwWorkoutPoint.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -428,8 +429,6 @@ typedef NS_ENUM(NSInteger, HwWorkoutType)
     HwWorkoutTypeBallet2 = 302, // 芭蕾舞，LS项目使用
 };
 
-
-@class HwWorkoutPoint;
 @class HwWorkoutGpsPoint;
 @interface HwWorkout : NSObject
 
@@ -542,6 +541,7 @@ typedef NS_ENUM(NSInteger, HwWorkoutType)
 - (HwWorkout *) initWithData:(NSData *)data;
 - (HwWorkout *) initWithBigDataContent:(NSData *)bigDataContent;
 
++ (NSArray<HwWorkout *> *) workoutsFromBigDataContent:(NSData *)bigDataContent;
 
 @end
 
