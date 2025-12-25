@@ -59,6 +59,14 @@
 - (HwBluetoothTask *_Nullable) getAiRecordDataWithCallback:(HwDataCallback _Nonnull)callback;
 - (HwBluetoothTask *_Nullable) getMeetingRecordDataWithCallback:(HwDataCallback _Nonnull)callback;
 
+
+- (HwBluetoothTask *_Nullable) setAiSubscriptionInfoWithType:(NSInteger) type
+                                                   startTime:(NSTimeInterval)startTime
+                                                     endTime:(NSTimeInterval)endTime
+                                                   leftCount:(NSInteger) leftCount;
+- (HwBluetoothTask *_Nullable) setAiVoicePlayResultWithCode:(NSInteger)code
+                                                        msg:(NSString *_Nullable)msg;
+
 - (void) addAiWatchfaceEnterOrExitListener:(HwAiWatchfaceEnterOrExitCallback _Nonnull)callback;
 - (void) removeAiWatchfaceEnterOrExitListener:(HwAiWatchfaceEnterOrExitCallback _Nonnull)callback;
 - (void) removeAllAiWatchfaceEnterOrExitListeners;
@@ -118,5 +126,13 @@
 - (void) addAiAnswerHandlerListener:(HwAiAnswerHandlerCallback _Nonnull)callback;
 - (void) removeAiAnswerHandlerListener:(HwAiAnswerHandlerCallback _Nonnull)callback;
 - (void) removeAllAiAnswerHandlerListeners;
+
+- (void) addAiVoicePlayRequestListener:(HwAiVoicePlayRequestCallback _Nonnull)callback;
+- (void) removeAiVoicePlayRequestListener:(HwAiVoicePlayRequestCallback _Nonnull)callback;
+- (void) removeAllAiVoicePlayRequestListeners;
+
+- (void) addAiSubscriptionInfoRequestListener:(HwAiSubscriptionInfoRequestCallback _Nonnull)callback;
+- (void) removeAiSubscriptionInfoRequestListener:(HwAiSubscriptionInfoRequestCallback _Nonnull)callback;
+- (void) removeAllAiSubscriptionInfoRequestListeners;
 
 @end

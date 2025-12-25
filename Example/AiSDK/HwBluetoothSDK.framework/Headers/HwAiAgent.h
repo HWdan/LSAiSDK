@@ -33,61 +33,62 @@ typedef NS_ENUM(NSInteger, HwAiAgentType) {
     HwAiAgentTypeJokeTeller = 0x91,
     HwAiAgentTypeMockMaster = 0x92,
     HwAiAgentTypeAnswerBook = 0x93,
-    
+    HwAiAgentTypeDigitalBomb = 0x94,
+
     // 生活服务
-    HwAiAgentTypeColorCoordinator = 0x94,
-    HwAiAgentTypeDreamInterpreter = 0x95,
-    HwAiAgentTypeHealthExpert = 0x96,
-    HwAiAgentTypeSkincareEncyclopedia = 0x97,
-    HwAiAgentTypeLifeHacks = 0x98,
-    HwAiAgentTypePetHealthConsultant = 0x99,
-    HwAiAgentTypeTranslator = 0x9a,
-    HwAiAgentTypeWeatherForecast = 0x9b,
-    
+    HwAiAgentTypeColorCoordinator = 0x95,
+    HwAiAgentTypeDreamInterpreter = 0x96,
+    HwAiAgentTypeHealthExpert = 0x97,
+    HwAiAgentTypeSkincareEncyclopedia = 0x98,
+    HwAiAgentTypeLifeHacks = 0x99,
+    HwAiAgentTypePetHealthConsultant = 0x9a,
+    HwAiAgentTypeTranslator = 0x9b,
+    HwAiAgentTypeWeatherForecast = 0x9c,
+
     // 人际沟通
-    HwAiAgentTypeHighEQReply = 0x9c,
-    HwAiAgentTypeMBTIExpert = 0x9d,
-    HwAiAgentTypeCareerPlanning = 0x9e,
-    
+    HwAiAgentTypeHighEQReply = 0x9d,
+    HwAiAgentTypeMBTIExpert = 0x9e,
+    HwAiAgentTypeCareerPlanning = 0x9f,
+
     // 办公工具
-    HwAiAgentTypeDataAnalysis = 0x9f,
-    HwAiAgentTypePptMaker = 0xa0,
-    HwAiAgentTypeMovieExplanation = 0xa1,
-    HwAiAgentTypeCreativeGenerator = 0xa2,
-    HwAiAgentTypeDailyQuote = 0xa3,
-    HwAiAgentTypeAIBookReader = 0xa4,
-    HwAiAgentTypeSWOTExpert = 0xa5,
-    
+    HwAiAgentTypeDataAnalysis = 0xa0,
+    HwAiAgentTypePptMaker = 0xa1,
+    HwAiAgentTypeMovieExplanation = 0xa2,
+    HwAiAgentTypeCreativeGenerator = 0xa3,
+    HwAiAgentTypeDailyQuote = 0xa4,
+    HwAiAgentTypeAIBookReader = 0xa5,
+    HwAiAgentTypeSWOTExpert = 0xa6,
+
     // 个人发展
-    HwAiAgentTypeMemoryTraining = 0xa6,
-    HwAiAgentTypeSleepManager = 0xa7,
-    HwAiAgentTypePartyGames = 0xa8,
-    HwAiAgentTypeGiftRecommendation = 0xa9,
-    HwAiAgentTypeProgrammingGuide = 0xaa,
-    
+    HwAiAgentTypeMemoryTraining = 0xa7,
+    HwAiAgentTypeSleepManager = 0xa8,
+    HwAiAgentTypePartyGames = 0xa9,
+    HwAiAgentTypeGiftRecommendation = 0xaa,
+    HwAiAgentTypeProgrammingGuide = 0xab,
+
     // 知识百科
-    HwAiAgentTypeFlowerLanguage = 0xab,
-    HwAiAgentTypePersonalColorAnalysis = 0xac,
-    HwAiAgentTypeHandcraftExpert = 0xad,
-    HwAiAgentTypeParentingKnowledge = 0xae,
-    HwAiAgentTypeWorldRecords = 0xaf,
-    HwAiAgentTypeBookLibrary = 0xb0,
-    HwAiAgentTypeCarHome = 0xb1,
-    HwAiAgentTypeGeographyKnowledge = 0xb2,
-    HwAiAgentTypeScienceSpace = 0xb3,
-    
+    HwAiAgentTypeFlowerLanguage = 0xac,
+    HwAiAgentTypePersonalColorAnalysis = 0xad,
+    HwAiAgentTypeHandcraftExpert = 0xae,
+    HwAiAgentTypeParentingKnowledge = 0xaf,
+    HwAiAgentTypeWorldRecords = 0xb0,
+    HwAiAgentTypeBookLibrary = 0xb1,
+    HwAiAgentTypeCarHome = 0xb2,
+    HwAiAgentTypeGeographyKnowledge = 0xb3,
+    HwAiAgentTypeScienceSpace = 0xb4,
+
     // 技术工具
-    HwAiAgentTypeAITextExpansion = 0xb4,
-    HwAiAgentTypeIQTest = 0xb5,
-    
+    HwAiAgentTypeAITextExpansion = 0xb5,
+    HwAiAgentTypeIQTest = 0xb6,
+
     // 情感社交
-    HwAiAgentTypeDatingTips = 0xb6,
-    HwAiAgentTypeBrainTeasers = 0xb7,
-    
+    HwAiAgentTypeDatingTips = 0xb7,
+    HwAiAgentTypeBrainTeasers = 0xb8,
+
     // 思维训练
-    HwAiAgentTypeThinkingTraining = 0xb8,
-    HwAiAgentTypeChatCompanion = 0xb9,
-    HwAiAgentTypeProbabilityCalculation = 0xba,
+    HwAiAgentTypeThinkingTraining = 0xb9,
+    HwAiAgentTypeChatCompanion = 0xba,
+    HwAiAgentTypeProbabilityCalculation = 0xbb,
     HwAiAgentTypeBMICalculator = 0x8a
 };
 @interface HwAiAgent : NSObject

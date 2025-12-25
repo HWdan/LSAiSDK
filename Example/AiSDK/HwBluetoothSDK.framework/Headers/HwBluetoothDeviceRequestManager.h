@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "HwGoalValue.h"
+#import "HwCameraImage.h"
 #import "HwDeviceDefines.h"
 
 @class HwWorkoutRealtimeData;
@@ -21,6 +22,7 @@ typedef NS_ENUM(NSInteger, HwCameraEvent)
 };
 typedef void (^HwCameraEventCallback)(HwCameraEvent event);
 typedef void (^HwCameraDelayEventCallback)(HwCameraEvent event, NSInteger delay, NSInteger photoNum);
+typedef void (^HwCameraImageEventCallback)(HwCameraEvent event, HwCameraImage *cameraImage, NSInteger delay, NSInteger photoNum);
 
 #pragma mark - Search iPhone
 typedef NS_ENUM(NSInteger, HwSearchPhoneState)
@@ -85,7 +87,7 @@ typedef void (^HwHealthDataUpdatedCallback)(NSInteger step, NSInteger distance, 
 typedef void (^HwSpO2StateUpdatedCallback)(BOOL monitoring);
 typedef void (^HwRequestGpsLocationCallback)(BOOL requestGps);
 typedef void (^HwAppStatusRequestCallback)(void);
-typedef void (^HwStartRecordingCallback)(int type, int language);
+typedef void (^HwStartRecordingCallback)(int type, int language, int outputLanguage);
 typedef void (^HwEndRecordingCallback)(int type);
 //typedef void (^HwGenerateAiWatchfaceRequestCallback)(void);
 typedef void (^HwGenerateAiAnswerRequestCallback)(void);
@@ -104,6 +106,8 @@ typedef void (^HwAiSettingUpdateCallback)(HwAiType type, int param1, int param2,
 typedef void (^HwAiEventCallback)(BOOL enter, HwAiType type, int param1, int param2, int param3);
 typedef void (^HwAiAnswerHandlerCallback)(BOOL play);
 typedef void (^HwAvailableStorageCallback)(NSInteger available, NSInteger total, NSError *_Nullable error);
+typedef void (^HwAiVoicePlayRequestCallback)(NSInteger state, NSInteger language, NSInteger volumn, NSString *_Nullable crc);
+typedef void (^HwAiSubscriptionInfoRequestCallback)(NSString *_Nullable mac);
 
 /*!
  蓝牙任务管理类
@@ -115,6 +119,10 @@ typedef void (^HwAvailableStorageCallback)(NSInteger available, NSInteger total,
 - (void) addCameraEventCallback:(HwCameraEventCallback _Nonnull)callback;
 - (void) removeCameraEventCallback:(HwCameraEventCallback _Nonnull)callback;
 - (void) removeAllCameraEventCallbacks;
+
+- (void) addCameraImageEventCallback:(HwCameraImageEventCallback _Nonnull)callback;
+- (void) removeCameraImageEventCallback:(HwCameraImageEventCallback _Nonnull)callback;
+- (void) removeAllCameraImageEventCallbacks;
 
 - (void) addCameraDelayEventCallback:(HwCameraDelayEventCallback _Nonnull)callback;
 - (void) removeCameraDelayEventCallback:(HwCameraDelayEventCallback _Nonnull)callback;
@@ -263,6 +271,14 @@ typedef void (^HwAvailableStorageCallback)(NSInteger available, NSInteger total,
 - (void) addAvailableStroageUpdatedListener:(HwAvailableStorageCallback _Nonnull)callback;
 - (void) removeAvailableStroageUpdatedListener:(HwAvailableStorageCallback _Nonnull)callback;
 - (void) removeAllAvailableStroageUpdatedListeners;
+
+- (void) addAiVoicePlayRequestListener:(HwAiVoicePlayRequestCallback _Nonnull)callback;
+- (void) removeAiVoicePlayRequestListener:(HwAiVoicePlayRequestCallback _Nonnull)callback;
+- (void) removeAllAiVoicePlayRequestListeners;
+
+- (void) addAiSubscriptionInfoRequestListener:(HwAiSubscriptionInfoRequestCallback _Nonnull)callback;
+- (void) removeAiSubscriptionInfoRequestListener:(HwAiSubscriptionInfoRequestCallback _Nonnull)callback;
+- (void) removeAllAiSubscriptionInfoRequestListeners;
 
 - (void) deviceDataComeFromHeartRate:(NSData *_Nullable)data;
 - (void) deviceDatasComeFrom8004:(NSData *_Nullable)data;

@@ -9,6 +9,7 @@
 #import "HwBluetoothCenter+Device.h"
 #import "HwBluetoothCenter+User.h"
 #import "HwBluetoothCenter+Ota.h"
+#import "HwBluetoothCenter+FileDifferenceOta.h"
 #import "HwBluetoothCenter+Expand.h"
 #import "HwBluetoothCenter+StatusSetting.h"
 #import "HwBluetoothCenter+WorkoutTrack.h"
@@ -31,6 +32,9 @@
 #import "HwGpsStatus.h"
 #import "HwBluetoothCenter+AI.h"
 #import "HwBluetoothCenter+Muslim.h"
+#import "HwBluetoothCenter+BigDataSport.h"
+#import "HwBluetoothCenter+BleFileSender.h"
+#import "HwLS16.h"
 
 #define HwBluetoothSDK_Version @"3.2.10"
 
@@ -307,6 +311,10 @@ Device's camera interface event listener
                                  longitude:(double)longitude
                                  timestamp:(NSTimeInterval)timestamp
                                   callback:(HwBoolCallback _Nullable)callback;
+- (void) setCurrentGpsOrNetLocationWithLatitude:(double)latitude
+                                      longitude:(double)longitude
+                                      timestamp:(NSTimeInterval)timestamp
+                                       callback:(HwBoolCallback _Nullable)callback;
 
 /*! @brief
  Get the ID and unique identification of the device
@@ -824,6 +832,9 @@ Start to bind with watch
  Set contacts to watch
  */
 - (void) setContacts:(NSArray<HwContact *> *_Nullable)contacts
+            callback:(HwBoolCallback _Nullable)callback;
+
+- (void) setContactsV2:(NSArray<HwContact *> *_Nullable)contacts
             callback:(HwBoolCallback _Nullable)callback;
 
 - (void) getContactsWithCallback:(void(^_Nonnull)(NSArray<HwContact *> *_Nullable contacts, NSError *_Nullable error))callback;
@@ -1496,6 +1507,7 @@ typedef void (^HwBtConnectionStateCallback)(BOOL connected);
                                           code:(int)code
                                            msg:(NSString *_Nullable)msg;
 - (void) getAiRecordDataWithCallback:(HwDataCallback _Nonnull)callback;
+- (void) getJLAiRecordDataWithCallback:(HwDataCallback _Nonnull)callback;
 
 - (void) getMeetingRecordDataWithCallback:(HwDataCallback _Nonnull)callback;
 
@@ -1594,7 +1606,20 @@ typedef void (^HwBtConnectionStateCallback)(BOOL connected);
 - (void) setCollectedAllahIndexs:(NSArray<NSNumber *> *_Nonnull)list
                         callback:(HwBoolCallback _Nullable)callback;
 
+- (void) setAiSubscriptionInfoWithType:(NSInteger) type
+                             startTime:(NSTimeInterval)startTime
+                               endTime:(NSTimeInterval)endTime
+                             leftCount:(NSInteger) leftCount;
+- (void) setAiVoicePlayResultWithCode:(NSInteger)code
+                                  msg:(NSString *_Nullable)msg;
 
+- (void) addAiVoicePlayRequestListener:(HwAiVoicePlayRequestCallback _Nonnull)callback;
+- (void) removeAiVoicePlayRequestListener:(HwAiVoicePlayRequestCallback _Nonnull)callback;
+- (void) removeAllAiVoicePlayRequestListeners;
+
+- (void) addAiSubscriptionInfoRequestListener:(HwAiSubscriptionInfoRequestCallback _Nonnull)callback;
+- (void) removeAiSubscriptionInfoRequestListener:(HwAiSubscriptionInfoRequestCallback _Nonnull)callback;
+- (void) removeAllAiSubscriptionInfoRequestListeners;
 @end
 
 
