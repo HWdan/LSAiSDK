@@ -1,0 +1,4 @@
+framework module HwAiSDK {
+  header "HwAiSDK-Swift.h"
+  requires objc
+}

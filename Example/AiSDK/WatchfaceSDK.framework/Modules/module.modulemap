@@ -1,0 +1,11 @@
+framework module WatchfaceSDK {
+  umbrella header "WatchfaceSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module WatchfaceSDK.Swift {
+  header "WatchfaceSDK-Swift.h"
+  requires objc
+}

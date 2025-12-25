@@ -3,13 +3,26 @@ source 'https://github.com/sususu/LYSpecs.git'
 
 use_frameworks!
 
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      # 为 Zip 框架启用 BUILD_LIBRARY_FOR_DISTRIBUTION
+      if target.name == 'Zip'
+        config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
+      end
+    end
+  end
+end
+
 platform :ios, '10.0'
 
 target 'AiSDK_Example' do
   pod 'SVProgressHUD'
   pod 'ReactiveObjC'
-  pod 'AiSDK', :git => 'https://github.com/HWdan/HwAiSDK.git', :branch => 'main'
-  pod 'WatchfaceSDK', :git => 'https://github.com/HWdan/WatchfaceSDK.git', :branch => 'main'
+  pod 'SSZipArchive'
+  pod 'Zip'
+#  pod 'AiSDK', :git => 'https://github.com/HWdan/HwAiSDK.git', :branch => 'main'
+#  pod 'WatchfaceSDK', :git => 'https://github.com/HWdan/WatchfaceSDK.git', :branch => 'main'
   target 'AiSDK_Tests' do
     inherit! :search_paths
 

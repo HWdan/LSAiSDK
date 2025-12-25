@@ -1,0 +1,368 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name WatchfaceSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
+import Foundation
+import ImageIO
+import SFDialPlateSDK
+import SSZipArchive
+import SifliOTAManagerSDK
+import Swift
+import UIKit
+@_exported import WatchfaceSDK
+import Zip
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import eZIPSDK
+public enum FirmwareUpdateState : Swift.Int {
+  case progress
+  case success
+  case failure
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public typealias HwFirmwareUpdateBlock = (WatchfaceSDK.FirmwareUpdateState, Swift.Int, Swift.Int, Swift.String) -> ()
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class HwOTAUpdateManager : ObjectiveC.NSObject, SifliOTAManagerSDK.SFOTAManagerDelegate {
+  public static let shared: WatchfaceSDK.HwOTAUpdateManager
+  public func initSDK()
+  public func stopFirmwareUpgrade()
+  public func startFirmwareUpgrade(devIdentifier: Swift.String, firmwarePath: Swift.String, differencePath: Swift.String, callback: @escaping WatchfaceSDK.HwFirmwareUpdateBlock)
+  @objc public func otaManager(manager: SifliOTAManagerSDK.SFOTAManager, updateBleState state: SifliOTAManagerSDK.BleCoreManagerState)
+  @objc public func otaManager(manager: SifliOTAManagerSDK.SFOTAManager, stage: SifliOTAManagerSDK.SFOTAProgressStage, totalBytes: Swift.Int, completedBytes: Swift.Int)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public func otaManager(manager: SifliOTAManagerSDK.SFOTAManager, complete error: SifliOTAManagerSDK.SFOTAError?)
+  #endif
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class QjsStorageUtils : ObjectiveC.NSObject {
+  @objc public static func saveString(_ str: Swift.String, forKey key: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public static func getString(forKey key: Swift.String) -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public static func getData(forKey key: Swift.String) -> Foundation.Data?
+  #endif
+  @objc public static func save(_ v: Any, forKey key: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public static func get(forKey key: Swift.String) -> Any?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public static func saveAsFile(forString string: Swift.String, fileName: Swift.String) -> Foundation.URL?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public static func saveAsFile(forData data: Foundation.Data, fileName: Swift.String) -> Foundation.URL?
+  #endif
+  @objc public static func getDocPath() -> Swift.String
+  @objc public static func getCahcePath() -> Swift.String
+  @objc public static func getTempPath() -> Swift.String
+  @objc public static func isFileExits(atPath path: Swift.String) -> Swift.Bool
+  @objc public static func createPath(path: Swift.String) -> Swift.Bool
+  @objc public static func moveItem(fromPath: Swift.String, toPath: Swift.String) -> Swift.Bool
+  @objc public static func copyItem(fromPath: Swift.String, toPath: Swift.String) -> Swift.Bool
+  @objc public static func deleteFile(atPath path: Swift.String) -> Swift.Bool
+  @objc public static func deleteFiles(atPath path: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public static func getData(atPath path: Swift.String) -> Foundation.Data?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public static func getFiles(atDirectory directory: Swift.String) -> Swift.Array<Swift.String>?
+  #endif
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class LsQjsWidget : ObjectiveC.NSObject {
+  @objc public var id: Swift.Int
+  @objc public var width: Swift.Int
+  @objc public var height: Swift.Int
+  @objc public var x: Swift.Int
+  @objc public var y: Swift.Int
+  @objc public var tintColor: UIKit.UIColor?
+  @objc public var valueType: Swift.Int
+  @objc public var name: Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class QjsBatteryWidget : WatchfaceSDK.QjsIconDataWidget {
+  @objc override dynamic public init()
+  @objc override public init(tintColor: UIKit.UIColor)
+  override public func setIconAlign(_ align: WatchfaceSDK.QjsAlignment)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class QjsCalorieWidget : WatchfaceSDK.QjsIconDataWidget {
+  @objc override dynamic public init()
+  @objc override public init(tintColor: UIKit.UIColor)
+  override public func setIconAlign(_ align: WatchfaceSDK.QjsAlignment)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc public class QjsDateWidget : WatchfaceSDK.LsQjsWidget {
+  @objc override dynamic public init()
+  @objc public init(tintColor: UIKit.UIColor)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class QjsDistanceWidget : WatchfaceSDK.QjsIconDataWidget {
+  @objc override dynamic public init()
+  @objc override public init(tintColor: UIKit.UIColor)
+  override public func setIconAlign(_ align: WatchfaceSDK.QjsAlignment)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc public class QjsDotWidget : WatchfaceSDK.LsQjsWidget {
+  @objc override dynamic public init()
+  @objc public init(tintColor: UIKit.UIColor)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class QjsDurationsWidget : WatchfaceSDK.QjsIconDataWidget {
+  @objc override dynamic public init()
+  @objc override public init(tintColor: UIKit.UIColor)
+  override public func setIconAlign(_ align: WatchfaceSDK.QjsAlignment)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class QjsHeartrateWidget : WatchfaceSDK.QjsIconDataWidget {
+  @objc override dynamic public init()
+  @objc override public init(tintColor: UIKit.UIColor)
+  override public func setIconAlign(_ align: WatchfaceSDK.QjsAlignment)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class QjsHourPointerWidget : WatchfaceSDK.QjsPointerWidget {
+  override public init(watchfaceSize: WatchfaceSDK.Size)
+  public init(_ watchfaceSize: WatchfaceSDK.Size, tintColor: UIKit.UIColor)
+  @objc deinit
+}
+@objc public enum QjsAlignment : Swift.Int {
+  case Top
+  case Right
+  case Bottom
+  case Left
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_hasMissingDesignatedInitializers public class QjsIconDataWidget : WatchfaceSDK.LsQjsWidget {
+  @objc override dynamic public init()
+  @objc public init(tintColor: UIKit.UIColor)
+  public func setIconAlign(_ align: WatchfaceSDK.QjsAlignment)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class QjsMinutePointerWidget : WatchfaceSDK.QjsPointerWidget {
+  override public init(watchfaceSize: WatchfaceSDK.Size)
+  public init(_ watchfaceSize: WatchfaceSDK.Size, tintColor: UIKit.UIColor)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc public class QjsPointerWidget : WatchfaceSDK.LsQjsWidget {
+  public init(watchfaceSize: WatchfaceSDK.Size)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class QjsSecondPointerWidget : WatchfaceSDK.QjsPointerWidget {
+  override public init(watchfaceSize: WatchfaceSDK.Size)
+  public init(_ watchfaceSize: WatchfaceSDK.Size, tintColor: UIKit.UIColor)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class QjsStepWidget : WatchfaceSDK.QjsIconDataWidget {
+  @objc override dynamic public init()
+  @objc override public init(tintColor: UIKit.UIColor)
+  override public func setIconAlign(_ align: WatchfaceSDK.QjsAlignment)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc public class QjsTimeWidget : WatchfaceSDK.LsQjsWidget {
+  @objc public init(tintColor: UIKit.UIColor)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class QjsWeatherTAWidget : WatchfaceSDK.QjsIconDataWidget {
+  @objc override dynamic public init()
+  @objc override public init(tintColor: UIKit.UIColor)
+  override public func setIconAlign(_ align: WatchfaceSDK.QjsAlignment)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class QjsWeatherWidget : WatchfaceSDK.QjsIconDataWidget {
+  @objc override dynamic public init()
+  @objc override public init(tintColor: UIKit.UIColor)
+  override public func setIconAlign(_ align: WatchfaceSDK.QjsAlignment)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc public class QjsWeekWidget : WatchfaceSDK.LsQjsWidget {
+  @objc override dynamic public init()
+  @objc public init(tintColor: UIKit.UIColor)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class LsQjsAlbumModel : ObjectiveC.NSObject {
+  @objc public var image: UIKit.UIImage?
+  @objc public var name: Swift.String?
+  @objc override dynamic public init()
+  @objc deinit
+}
+public typealias WatchfaceCallback = (Foundation.URL?, WatchfaceSDK.QjsError?) -> ()
+@objc public class SlifiCustomWatchface : ObjectiveC.NSObject {
+  @objc public var name: Swift.String
+  @objc public var width: Swift.Int
+  @objc public var height: Swift.Int
+  @objc public var backgroundImage: UIKit.UIImage?
+  @objc public var thumbnailImage: UIKit.UIImage?
+  @objc public var backgroundGif: Foundation.URL?
+  @objc public var widgetList: [WatchfaceSDK.LsQjsWidget]
+  public var callback: WatchfaceSDK.WatchfaceCallback!
+  @objc public init(width: Swift.Int = 0, height: Swift.Int = 0)
+  @objc public func addWidget(_ widget: WatchfaceSDK.LsQjsWidget)
+  @objc public func removeWidget(_ widget: WatchfaceSDK.LsQjsWidget)
+  @objc public func removeWidgetById(_ id: Swift.Int)
+  @objc public func removeAllWidgets()
+  public func makeZip(callback: @escaping WatchfaceSDK.WatchfaceCallback)
+  @objc deinit
+}
+public struct Size {
+  public var width: Swift.Int
+  public var height: Swift.Int
+  public static let zero: WatchfaceSDK.Size
+}
+extension UIKit.UIColor {
+  convenience public init(r: Swift.UInt32, g: Swift.UInt32, b: Swift.UInt32, a: CoreFoundation.CGFloat = 1.0)
+  convenience public init(rgbValue: Swift.Int)
+  public class func hex(hexString: Swift.String) -> UIKit.UIColor
+  public var hexInt: Swift.Int {
+    get
+  }
+}
+@objc extension UIKit.UIImage {
+  @objc dynamic public func imageByTintColor(color: UIKit.UIColor) -> UIKit.UIImage
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc dynamic public func resize(_ size: CoreFoundation.CGSize, cornerRadius: CoreFoundation.CGFloat) -> UIKit.UIImage?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public static func imageWithColor(color: UIKit.UIColor, size: CoreFoundation.CGSize) -> UIKit.UIImage?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public static func loadImage(named imgName: Swift.String) -> UIKit.UIImage?
+  #endif
+}
+@_inheritsConvenienceInitializers @objc public class QjsFileUtils : ObjectiveC.NSObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public static func exportBin(source: UIKit.UIImage, color: UIKit.UIColor?) -> Foundation.Data?
+  #endif
+  public typealias QjsCompressCallback = (Swift.Bool) -> ()
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension UIKit.UIView {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency public func asImage() -> UIKit.UIImage?
+  #endif
+}
+@_hasMissingDesignatedInitializers public class LsQjsDependence {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class QjsFunction {
+  @objc deinit
+}
+@objc public enum QjsValueType : Swift.Int {
+  case none = -1
+  case stepsNum = 0
+  case calorieNum = 1
+  case heartrateNum = 2
+  case temperatureNum = 4
+  case temperatureTypeNum = 73
+  case batteryNum = 9
+  case hourNum = 12
+  case minuteNum = 13
+  case secondNum = 14
+  case hourPointer = 150
+  case minutePointer = 153
+  case secondPointer = 154
+  case weekData = 52
+  case dateNum = 17
+  case distanceNum = 146
+  case weatherNum = 21
+  case activityTime = 214
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_hasMissingDesignatedInitializers public class SifliQjsWatchface : ObjectiveC.NSObject {
+  public func toQjs(_ isAOD: Swift.Bool = false) -> Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func makeZip(callback: @escaping (Foundation.URL?, WatchfaceSDK.QjsError?) -> Swift.Void)
+  #endif
+  public func copy() -> WatchfaceSDK.SifliQjsWatchface
+  @objc deinit
+}
+@objc public protocol QjsCallback {
+  @objc func onZipCompleted(zip: Foundation.URL)
+  @objc func onError(code: Swift.Int)
+  @objc func onQjsSaved()
+  @objc func onProgress(current: Swift.Int64, total: Swift.Int64)
+  @objc func onSuccess()
+}
+@objc public enum QjsError : Swift.Int {
+  case none = 0
+  case unknownError = 4000
+  case createDirError = 4100
+  case saveBinFileError = 4102
+  case zipError = 4200
+  case exportBinError = 4300
+  case saveQjsFileError = 4400
+  case qjsFileEmpty = 4440
+  case saveAodQjsFileError = 4401
+  case missingThumbnail = 4501
+  case missingWidgetImages = 4504
+  case manualStop = 4766
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public typealias QjsWatchfaceFinishCallback = (Swift.Bool, Swift.String?, Swift.Int, Foundation.NSNumber) -> ()
+public typealias QjsWatchfaceProgressCallback = (Swift.Int) -> ()
+public typealias QjsCompresSuccessCallback = (Swift.Bool) -> ()
+@_inheritsConvenienceInitializers @objc public class SifliWatchfaceSDK : ObjectiveC.NSObject {
+  @objc public var width: Swift.Double
+  @objc public var height: Swift.Double
+  @objc public var ProgressCallback: WatchfaceSDK.QjsWatchfaceProgressCallback?
+  @objc public var FinishCallback: WatchfaceSDK.QjsWatchfaceFinishCallback?
+  @objc public var CompressSuccessCallback: WatchfaceSDK.QjsCompresSuccessCallback?
+  @objc public var isWorking: Swift.Bool
+  @objc public static func getInstance() -> WatchfaceSDK.SifliWatchfaceSDK
+  @objc public func initSDK()
+  @objc public func setPictures(devIdentifier: Swift.String, compressSuccessCallback: @escaping WatchfaceSDK.QjsCompresSuccessCallback, albums: Swift.Array<WatchfaceSDK.LsQjsAlbumModel>, progressCallback: @escaping WatchfaceSDK.QjsWatchfaceProgressCallback, finishCallback: @escaping WatchfaceSDK.QjsWatchfaceFinishCallback)
+  @objc public func setMusicFiles(devIdentifier: Swift.String, musicFilePath: Foundation.URL, compressCallback: @escaping WatchfaceSDK.QjsCompresSuccessCallback, progressCallback: @escaping WatchfaceSDK.QjsWatchfaceProgressCallback, finishCallback: @escaping WatchfaceSDK.QjsWatchfaceFinishCallback)
+  @objc public func pushOfflineMap(devIdentifier: Swift.String, mapZipFilePath: Foundation.URL, compressCallback: @escaping WatchfaceSDK.QjsCompresSuccessCallback, progressCallback: @escaping WatchfaceSDK.QjsWatchfaceProgressCallback, finishCallback: @escaping WatchfaceSDK.QjsWatchfaceFinishCallback)
+  @objc public func setCustomWatchface(devIdentifier: Swift.String, watchface: WatchfaceSDK.SlifiCustomWatchface, compressSuccessCallback: @escaping WatchfaceSDK.QjsCompresSuccessCallback, progressCallback: @escaping WatchfaceSDK.QjsWatchfaceProgressCallback, finishCallback: @escaping WatchfaceSDK.QjsWatchfaceFinishCallback)
+  @objc public func setOnlineWatchface(devIdentifier: Swift.String, filePath: Foundation.URL, progressCallback: @escaping WatchfaceSDK.QjsWatchfaceProgressCallback, finishCallback: @escaping WatchfaceSDK.QjsWatchfaceFinishCallback)
+  @objc public func syncZipFile(devIdentifier: Swift.String, filePath: Foundation.URL, type: Swift.Int, progressCallback: @escaping WatchfaceSDK.QjsWatchfaceProgressCallback, finishCallback: @escaping WatchfaceSDK.QjsWatchfaceFinishCallback)
+  @objc public func syncZipFile(devIdentifier: Swift.String, filePath: Foundation.URL, type: Swift.Int, byteAlign: Swift.Bool, progressCallback: @escaping WatchfaceSDK.QjsWatchfaceProgressCallback, finishCallback: @escaping WatchfaceSDK.QjsWatchfaceFinishCallback)
+  @objc public func stop()
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension WatchfaceSDK.SifliWatchfaceSDK : SFDialPlateSDK.SFDialPlateManagerDelegate {
+  @objc dynamic public func dialPlateManager(manager: SFDialPlateSDK.SFDialPlateManager, didUpdateBLEState bleState: SFDialPlateSDK.DPBleCoreManagerState)
+  @objc dynamic public func dialPlateManager(manager: SFDialPlateSDK.SFDialPlateManager, progress: Swift.Int)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc dynamic public func dialPlateManager(manager: SFDialPlateSDK.SFDialPlateManager, complete error: SFDialPlateSDK.SFError?)
+  #endif
+}
+extension WatchfaceSDK.FirmwareUpdateState : Swift.Equatable {}
+extension WatchfaceSDK.FirmwareUpdateState : Swift.Hashable {}
+extension WatchfaceSDK.FirmwareUpdateState : Swift.RawRepresentable {}
+extension WatchfaceSDK.QjsAlignment : Swift.Equatable {}
+extension WatchfaceSDK.QjsAlignment : Swift.Hashable {}
+extension WatchfaceSDK.QjsAlignment : Swift.RawRepresentable {}
+extension WatchfaceSDK.QjsValueType : Swift.Equatable {}
+extension WatchfaceSDK.QjsValueType : Swift.Hashable {}
+extension WatchfaceSDK.QjsValueType : Swift.RawRepresentable {}
+extension WatchfaceSDK.QjsError : Swift.Equatable {}
+extension WatchfaceSDK.QjsError : Swift.Hashable {}
+extension WatchfaceSDK.QjsError : Swift.RawRepresentable {}

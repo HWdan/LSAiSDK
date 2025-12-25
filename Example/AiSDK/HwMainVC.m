@@ -10,8 +10,8 @@
 #import "AiSDK_Example-Swift.h"
 #import <SVProgressHUD/SVProgressHUD.h>
 #import "HwBluetoothSDK/HwBluetoothSDK.h"
-#import "AiSDK.h"
-#import "AiSDK/AiImageUtils.h"
+#import "HwAiSDK/AiSDK.h"
+#import "HwAiSDK/AiImageUtils.h"
 
 @interface HwMainVC ()<ConnectVCDelegate, UITableViewDataSource, UITableViewDelegate, ILog, AiSDKCallback, IAiErrorMessageProvider>
 
@@ -198,55 +198,55 @@
     [[AiSDK sharedInstance] setDeviceInfo:self.deviceInfo];
     
     
-//    NSString *path = [[NSBundle mainBundle] pathForResource:@"girl" ofType:@"jpeg"];
-//    UIImage *image = [UIImage imageWithContentsOfFile:path];
-//    SlifiCustomWatchface *watchface = [[SlifiCustomWatchface alloc] initWithWidth:self.deviceInfo.width height:self.deviceInfo.height];
-//    watchface.name = [[AiSDK sharedInstance] generateAiWatchfaceName];
-//    watchface.name = @"TTTest";
-//    NSLog(@"name: %@", watchface.name);
-//    
-//    UIImage *bgImage = [AiImageUtils generateFitSizeImage:image width:self.deviceInfo.width height:self.deviceInfo.height];
-//    UIImage *preview = [AiImageUtils generateFitSizePreViewImage:image width:self.deviceInfo.width height:self.deviceInfo.height];
-//    
-//    bgImage = [AiImageUtils generateFitSizeRoundedImage:bgImage width:self.deviceInfo.width height:self.deviceInfo.height cornerRadius:self.deviceInfo.cornerRadius];
-//    preview = [AiImageUtils generateFitSizeRoundedImage:preview width:self.deviceInfo.thumbnailWidth height:self.deviceInfo.thumbnailHeight cornerRadius:self.deviceInfo.thumbnailCornerRadius];
-//    
-//    watchface.backgroundImage = bgImage;
-//    watchface.thumbnailImage = preview;
-//    
-//    Time *time = [[Time alloc] initWithTintColor:[UIColor whiteColor]];
-//    NSInteger timeX = (self.deviceInfo.width - time.width) / 2;
-//    NSInteger timeY = 60;
-//    time.x = timeX;
-//    time.y = timeY;
-//    
-//    NSInteger y = timeY + time.height + 10;
-//    Date *date = [[Date alloc] initWithTintColor:[UIColor whiteColor]];
-//    Week *week = [[Week alloc] initWithTintColor:[UIColor whiteColor]];
-//    
-//    NSInteger x = (self.deviceInfo.width - date.width - week.width - 4) / 2;
-//    date.x = x;
-//    date.y = y;
-//    
-//    x = date.x + date.width + 4;
-//    week.x = x;
-//    week.y = y;
-//    
-//    [watchface addWidget:time];
-//    [watchface addWidget:date];
-//    [watchface addWidget:week];
-//    
-//    self.watchface = watchface;
-//    
-//    HwBluetoothDevice *device = [HwBluetoothCenter sharedInstance].connectedDevice;
-//    NSString *deviceUUID = device.peripheral.identifier.UUIDString;
-//    [[WatchfaceSDK getInstance] setCustomWatchfaceWithDevIdentifier:deviceUUID watchface:watchface compressSuccessCallback:^(BOOL success) {
-//        NSLog(@"compress succes: %@", @(success));
-//        } progressCallback:^(NSInteger progress) {
-//            NSLog(@"%@", @(progress));
-//        } finishCallback:^(BOOL success, NSString *message, NSInteger code, NSNumber *devCode) {
-//            NSLog(@"success: %@", @(success));
-//        }];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"girl" ofType:@"jpeg"];
+    UIImage *image = [UIImage imageWithContentsOfFile:path];
+    SlifiCustomWatchface *watchface = [[SlifiCustomWatchface alloc] initWithWidth:self.deviceInfo.width height:self.deviceInfo.height];
+    watchface.name = [[AiSDK sharedInstance] generateAiWatchfaceName];
+    watchface.name = @"TTTest";
+    NSLog(@"name: %@", watchface.name);
+    
+    UIImage *bgImage = [AiImageUtils generateFitSizeImage:image width:self.deviceInfo.width height:self.deviceInfo.height];
+    UIImage *preview = [AiImageUtils generateFitSizePreViewImage:image width:self.deviceInfo.width height:self.deviceInfo.height];
+    
+    bgImage = [AiImageUtils generateFitSizeRoundedImage:bgImage width:self.deviceInfo.width height:self.deviceInfo.height cornerRadius:self.deviceInfo.cornerRadius];
+    preview = [AiImageUtils generateFitSizeRoundedImage:preview width:self.deviceInfo.thumbnailWidth height:self.deviceInfo.thumbnailHeight cornerRadius:self.deviceInfo.thumbnailCornerRadius];
+    
+    watchface.backgroundImage = bgImage;
+    watchface.thumbnailImage = preview;
+    
+    QjsTimeWidget *time = [[QjsTimeWidget alloc] initWithTintColor:[UIColor whiteColor]];
+    NSInteger timeX = (self.deviceInfo.width - time.width) / 2;
+    NSInteger timeY = 60;
+    time.x = timeX;
+    time.y = timeY;
+    
+    NSInteger y = timeY + time.height + 10;
+    QjsDateWidget *date = [[QjsDateWidget alloc] initWithTintColor:[UIColor whiteColor]];
+    QjsWeekWidget *week = [[QjsWeekWidget alloc] initWithTintColor:[UIColor whiteColor]];
+    
+    NSInteger x = (self.deviceInfo.width - date.width - week.width - 4) / 2;
+    date.x = x;
+    date.y = y;
+    
+    x = date.x + date.width + 4;
+    week.x = x;
+    week.y = y;
+    
+    [watchface addWidget:time];
+    [watchface addWidget:date];
+    [watchface addWidget:week];
+    
+    self.watchface = watchface;
+    
+    HwBluetoothDevice *device = [HwBluetoothCenter sharedInstance].connectedDevice;
+    NSString *deviceUUID = device.peripheral.identifier.UUIDString;
+    [[SifliWatchfaceSDK getInstance] setCustomWatchfaceWithDevIdentifier:deviceUUID watchface:watchface compressSuccessCallback:^(BOOL success) {
+        NSLog(@"compress succes: %@", @(success));
+        } progressCallback:^(NSInteger progress) {
+            NSLog(@"%@", @(progress));
+        } finishCallback:^(BOOL success, NSString *message, NSInteger code, NSNumber *devCode) {
+            NSLog(@"success: %@", @(success));
+        }];
 }
 
 - (void)didConnectWithDevice:(HwBluetoothDevice *)device
