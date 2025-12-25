@@ -32,6 +32,18 @@
 		<data>
 		cs0q1enZ5tVOcDT/C7GI0l+tii0=
 		</data>
+		<key>Headers/AiTextToImageService.h</key>
+		<data>
+		OafuK+9r4zx4gKYkJUFWlrTezjQ=
+		</data>
+		<key>Headers/AiTimeoutService.h</key>
+		<data>
+		IpoW/ONZLiJ9obzsumgMM6RGudY=
+		</data>
+		<key>Headers/AiVoiceToTextService.h</key>
+		<data>
+		AiDOdGOEvl1sFiwuxmg9SqiRDDs=
+		</data>
 		<key>Headers/HwAiSDK-Swift.h</key>
 		<data>
 		ufHnVStyhFDvyuYFzUxg2f/i6J0=
@@ -150,6 +162,27 @@
 			<key>hash2</key>
 			<data>
 			bkg/IjUUC5HxsFR/w4g7BpyjiK90GyuIoo4oLMQa4Rs=
+			</data>
+		</dict>
+		<key>Headers/AiTextToImageService.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vzAXkVW4Q1xw7KmoEeY1p9pi0WFutMORnEutcBlT5io=
+			</data>
+		</dict>
+		<key>Headers/AiTimeoutService.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lzqn/PrUqpijtz3i4X8Szpf52vKrGMhP8GpCAF9dVBc=
+			</data>
+		</dict>
+		<key>Headers/AiVoiceToTextService.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qgihkjv1Pc+RhaJLxOdgFOvQDLeJXzNv/+eWXaiXtmY=
 			</data>
 		</dict>
 		<key>Headers/HwAiSDK-Swift.h</key>
