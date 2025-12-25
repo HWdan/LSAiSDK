@@ -60,6 +60,14 @@
 		<data>
 		LUur4TiPUnHrJg3ymyztk7FZ3n0=
 		</data>
+		<key>Headers/ITextToImageHandler.h</key>
+		<data>
+		ktxWLY6yKQp46Z7SuD9Q/R9cYqk=
+		</data>
+		<key>Headers/ITextToVoiceHandler.h</key>
+		<data>
+		K+NsrXsTtyTLeVejPDlr2KZ28FA=
+		</data>
 		<key>Info.plist</key>
 		<data>
 		ihUUY2XZsWnJyMj9b80dJqe3ISs=
@@ -211,6 +219,20 @@
 			<key>hash2</key>
 			<data>
 			YF44v5Cn6F4muxCXYsf04Y2yUSzbM/Yyn6caUJ7zs7k=
+			</data>
+		</dict>
+		<key>Headers/ITextToImageHandler.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			i2OUI2DcicH8MtnDrQkwAuvqEfVKVXMUwJLr/se/nRw=
+			</data>
+		</dict>
+		<key>Headers/ITextToVoiceHandler.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/siTUh2LkV8iqPBrgQOZ6/BNpsOSKci5g0nLeazw5QM=
 			</data>
 		</dict>
 		<key>Modules/HwAiSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
