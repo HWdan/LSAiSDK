@@ -6,35 +6,39 @@
 	<dict>
 		<key>Headers/WatchfaceSDK-Swift.h</key>
 		<data>
-		r5kmHGguHB5zBQjipm57oEeoL2E=
+		14dZAqRDWKSEihrDSm4vtQ8cxdA=
 		</data>
 		<key>Headers/WatchfaceSDK.h</key>
 		<data>
-		Va9L99iQeEGbSqsd/R/gk86S4VU=
+		Sfo7WfJ7D4izyDvxC2PIxogLu8g=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		RfRv4smTO1w7xvqEkUbAPUEPGSY=
+		5DYuNgHhGOcc4iSMJ9aFar2He/8=
+		</data>
+		<key>Modules/WatchfaceSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
+		<data>
+		vyI+upwires8MbpMWRc4HCPhWpE=
 		</data>
 		<key>Modules/WatchfaceSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		eDAKnw3+iuSul+5N5TwIyOjOAao=
+		RQFCsEA8avng+h9HJV5eeIjSxFQ=
 		</data>
 		<key>Modules/WatchfaceSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		hr5/zkVOgeiyNfl1Mksx5HAf6dU=
+		uhPJPUDxigb5odbu2onXKUFB6ec=
 		</data>
 		<key>Modules/WatchfaceSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		vXrwciBqTLvD6bfbFCPMzCpZDOI=
+		rzqkFWcpucUVXKhJjnigPPOHvfY=
 		</data>
 		<key>Modules/WatchfaceSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		hr5/zkVOgeiyNfl1Mksx5HAf6dU=
+		uhPJPUDxigb5odbu2onXKUFB6ec=
 		</data>
 		<key>Modules/WatchfaceSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		MohGUfene5RSg6bDkMAN2T0p/qA=
+		O/SUSx7ZfVbOBBrHgEmlj+vsoY0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -383,49 +387,56 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			duQjBD5DOCH0vpu1NkH0glcDK/Gpap+ZWdK1SfgPV6o=
+			wBpzb9GjKmsRRA6QgTkLsKv9wjxl3Kh1/C7YOZ3iwPk=
 			</data>
 		</dict>
 		<key>Headers/WatchfaceSDK.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			avPcArzeQ+xjObTTQn4oJzVg3flyxwfgRKCp01r41ss=
+			0Fa9+bx0TwqCEAsGdq8Cw2N77OOT5EwRkyXvJyc+yBM=
+			</data>
+		</dict>
+		<key>Modules/WatchfaceSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wjQlXac32PKkF554hCKgRfNHHZu9ciuBuNVVEFCRhnQ=
 			</data>
 		</dict>
 		<key>Modules/WatchfaceSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			15Gw9hYZzI1Kpc7wTnrl1Xx1CXGJEOVhJ1lBnG5dnPE=
+			9KbY8Mp4+OoBnnZzftnqrAbl1Dd6iNMmW6RxL1sPgxg=
 			</data>
 		</dict>
 		<key>Modules/WatchfaceSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qn+bJ8/Eofasf/6G7R6XsLRltutTsJzXO92zG1vDdGc=
+			ZWvBvHTDwDuHX3yS1rcexvDI6UVLFSqMW6pWhKhevHc=
 			</data>
 		</dict>
 		<key>Modules/WatchfaceSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3irlzz7Ka6xxwNQCmBKNAqY5T+dj9ibbatZBLIy4X1I=
+			biCTG7Tts5Bq+vx2qHo2pb6RYfTh98VbwD0EeibVfds=
 			</data>
 		</dict>
 		<key>Modules/WatchfaceSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qn+bJ8/Eofasf/6G7R6XsLRltutTsJzXO92zG1vDdGc=
+			ZWvBvHTDwDuHX3yS1rcexvDI6UVLFSqMW6pWhKhevHc=
 			</data>
 		</dict>
 		<key>Modules/WatchfaceSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hL7JwTLQZrrs1ADTIaEHw4dQ9LiMirHeC9/bn6ulMuI=
+			qZwSvjPMTfPZryt7nO+FIhIN2sSDXJRPg76puoFQVnk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

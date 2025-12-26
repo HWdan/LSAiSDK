@@ -4,93 +4,69 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/AiDefaultErrorMessageProvider.h</key>
-		<data>
-		saaIxjEUlnP9dZvKitLoFf9oHRI=
-		</data>
 		<key>Headers/AiDeviceInfo.h</key>
 		<data>
-		/IjN4BinhanzxLXSkNBuLuMDfIc=
+		CZaPgqt16EiFzpZ8bN26jF7Cwy8=
 		</data>
 		<key>Headers/AiExerciseAnalyzeModel.h</key>
 		<data>
-		d4GWO7MZtTWA8zmyAHHUc6lFQkw=
+		R66YL3kHPSYho/ewf9coW4kFu/4=
 		</data>
 		<key>Headers/AiImageUtils.h</key>
 		<data>
-		vtQ9e0v+WXlWxF6Mp+40SKv6PfA=
-		</data>
-		<key>Headers/AiLocaleUtils.h</key>
-		<data>
-		OBFXhPndgTj6znNWYx1zlfaK2Ts=
+		f0l4YPV5jVtU1AX2myxQL4i/EXw=
 		</data>
 		<key>Headers/AiLogger.h</key>
 		<data>
-		n5PacEMVtCkxwtuaCHSVvryWamQ=
+		UkAjxW5P8ekiP7C/ZwuOH2AM/aE=
 		</data>
 		<key>Headers/AiOrderInfo.h</key>
 		<data>
-		CF1eCvkMatJSfucctnrK1+azfKk=
+		df5jVCSU3BtYznhft567gQ1xWno=
 		</data>
 		<key>Headers/AiSDK.h</key>
 		<data>
-		cVtx0e/v0ehPun5S9jTFIFm7O2M=
+		c+9qni5/VUjlglwPRGvkOD0oPCI=
 		</data>
 		<key>Headers/AiSDKCallback.h</key>
 		<data>
-		cs0q1enZ5tVOcDT/C7GI0l+tii0=
+		zJPRSQyi22CXNwnYt/NaOmRXIiM=
 		</data>
 		<key>Headers/AiTextToImageService.h</key>
 		<data>
-		OafuK+9r4zx4gKYkJUFWlrTezjQ=
-		</data>
-		<key>Headers/AiTimeoutService.h</key>
-		<data>
-		IpoW/ONZLiJ9obzsumgMM6RGudY=
-		</data>
-		<key>Headers/AiVoiceToTextService.h</key>
-		<data>
-		AiDOdGOEvl1sFiwuxmg9SqiRDDs=
+		/wq3JbYceKLunD/ThT9kzIVrlCI=
 		</data>
 		<key>Headers/HwAiSDK-Swift.h</key>
 		<data>
-		ufHnVStyhFDvyuYFzUxg2f/i6J0=
+		8fdOfnOceHNPQVAiM982uL705FQ=
 		</data>
 		<key>Headers/IAiErrorMessageProvider.h</key>
 		<data>
-		iTedZsj/TwybzGS/FefeFcp7XpM=
+		OQPnXdSUVaVCRLx4nWLsq2hlbdw=
 		</data>
 		<key>Headers/IAiWatchfaceNameProvider.h</key>
 		<data>
-		cJNBAXYdGVU7mSve8oS7qvVq21s=
-		</data>
-		<key>Headers/IImageToWatchfaceHandler.h</key>
-		<data>
-		w1pG/BVHqEHznsc2wMektnA9qGg=
+		eT32XGBKXQL6oclDusVIk3cTAL4=
 		</data>
 		<key>Headers/ILog.h</key>
 		<data>
-		LUur4TiPUnHrJg3ymyztk7FZ3n0=
+		/nUtSFjccnQoGolJ/Kxio0/z4Wc=
 		</data>
 		<key>Headers/ITextToImageHandler.h</key>
 		<data>
-		ktxWLY6yKQp46Z7SuD9Q/R9cYqk=
-		</data>
-		<key>Headers/ITextToVoiceHandler.h</key>
-		<data>
-		K+NsrXsTtyTLeVejPDlr2KZ28FA=
+		1lQ0GCve9m4l7E4YrWh5JP8g6Nk=
 		</data>
 		<key>Headers/IVoiceToText.h</key>
 		<data>
-		YX9+BwrocMoPZnizqCEKRHKteiY=
+		0eElS/LLspf5RL5bLQVSIAlDAWM=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ihUUY2XZsWnJyMj9b80dJqe3ISs=
+		0YRmVBbw6d7usCVoqnkWLCGBqwI=
 		</data>
 		<key>Modules/HwAiSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		jkrODZnMb5ech8P0cIEKqHxhPtg=
+		9tRfdE0BmMmyHbqOlZGKLrysxXo=
 		</data>
 		<key>Modules/HwAiSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -98,11 +74,11 @@
 		</data>
 		<key>Modules/HwAiSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		fyk1TcgJ9aVlv61DFdV5t/0i9wI=
+		KjkjOCxQefrQnUWaAto4KbMBPhE=
 		</data>
 		<key>Modules/HwAiSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		BzAfzZc6iPx1Yt00Px2Cey059iM=
+		lm/4t3Xx4Cjo8uJJ5RDQYEkixXc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -139,151 +115,109 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/AiDefaultErrorMessageProvider.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			DRJ01rk9rnu0Jz4sH1xnVMBKcBdlFu5IPgYOisC1J3g=
-			</data>
-		</dict>
 		<key>Headers/AiDeviceInfo.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RWYwq2wlOsCxFPjjGRIEa74Md72/nZpi634KuxGjEpc=
+			4Oa9Fcr9fbr0wzfw3G5lyCxxe6SU7T+RxE6gjJq90T8=
 			</data>
 		</dict>
 		<key>Headers/AiExerciseAnalyzeModel.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rzB7MLWod7Q2PniEHmRMdwvtHvonDms3dbQxyO7CLzg=
+			SvVyl66bvqomG6ULSRoAT2dvwM0QjgsdzpGgi0AFEio=
 			</data>
 		</dict>
 		<key>Headers/AiImageUtils.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/zbIwfNMEyXQ4sxZB0u7GRWUpzpLWLMRmgCSX9X4wNY=
-			</data>
-		</dict>
-		<key>Headers/AiLocaleUtils.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			f9TG4hFYsCd0JHqXKAR/uiLbMOTL9RtBQ+Plv9i1tR4=
+			KcOgMaBb4nYu5FtkGIoep79TUPApFsKC2zGXvtN/TB0=
 			</data>
 		</dict>
 		<key>Headers/AiLogger.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			t20kCnfdlEkk87wvSZhxAXS6rv6SkyXCu5CRnZPazjY=
+			BE+OfUAkUVbQZGdh+9jI1a+pSFe2cMYpuQnD+euHxVc=
 			</data>
 		</dict>
 		<key>Headers/AiOrderInfo.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vT12RIBMk5V260sByBGn3Xuo3hVrZIeZNi1BNbmVgYg=
+			5G4m7MMgAc3l/JOyrBozv3T0VgIB4n+lStDwfNJRAzM=
 			</data>
 		</dict>
 		<key>Headers/AiSDK.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CzQNI9/bJNO6yPlglp1SXstM3y/S84uSOdbyA6xj+tE=
+			t91GZ7XWpF1zWngPqcol1ctVc1ItfgJE5N3M3/kAC/c=
 			</data>
 		</dict>
 		<key>Headers/AiSDKCallback.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bkg/IjUUC5HxsFR/w4g7BpyjiK90GyuIoo4oLMQa4Rs=
+			TzEPlXYxvQd2dNgKy+67Dct9wFVxD4fm6hE9YlgKzlI=
 			</data>
 		</dict>
 		<key>Headers/AiTextToImageService.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vzAXkVW4Q1xw7KmoEeY1p9pi0WFutMORnEutcBlT5io=
-			</data>
-		</dict>
-		<key>Headers/AiTimeoutService.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			lzqn/PrUqpijtz3i4X8Szpf52vKrGMhP8GpCAF9dVBc=
-			</data>
-		</dict>
-		<key>Headers/AiVoiceToTextService.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			qgihkjv1Pc+RhaJLxOdgFOvQDLeJXzNv/+eWXaiXtmY=
+			DApIogZ4EcNDcud6/g6O5XxfAhd9pfiC8friS6+V3dM=
 			</data>
 		</dict>
 		<key>Headers/HwAiSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M8XM5LOXAqkoiHeJBf78IV2lik3lt4INbHGJYSWQS6s=
+			sEcbH5DOrdpufIKx5yVuP/J9d8rGmd3Gt+AySGoqWJc=
 			</data>
 		</dict>
 		<key>Headers/IAiErrorMessageProvider.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			y2oeQtnwmjnuYXhSV3+Lwd6GnZVCNwrq3bvpNih2xWc=
+			UmGmihY9HtiSu072TUSw6ooxeaSs4Ug3lDIfpTjiIFM=
 			</data>
 		</dict>
 		<key>Headers/IAiWatchfaceNameProvider.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UsH5uCu0Rjy9tweNrGI9sQtI0U7lUNfEvrum4YsTAdI=
-			</data>
-		</dict>
-		<key>Headers/IImageToWatchfaceHandler.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			482TcmoI7N4iTBergMgiqxg4o4qJdQHRZE1iFIHtyAg=
+			SqOMKy4eYkjQHawpbV1nKziTJhWXD033QgxXZKdbsDU=
 			</data>
 		</dict>
 		<key>Headers/ILog.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YF44v5Cn6F4muxCXYsf04Y2yUSzbM/Yyn6caUJ7zs7k=
+			SsKFFnHdUXNE3LPpT4gWeIp8tjiZlg7cStNGEjZdvUE=
 			</data>
 		</dict>
 		<key>Headers/ITextToImageHandler.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			i2OUI2DcicH8MtnDrQkwAuvqEfVKVXMUwJLr/se/nRw=
-			</data>
-		</dict>
-		<key>Headers/ITextToVoiceHandler.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/siTUh2LkV8iqPBrgQOZ6/BNpsOSKci5g0nLeazw5QM=
+			3Rt4SxipCT3KoFkBl6GuZlAH5RWcFHJFB6IUGY65L7E=
 			</data>
 		</dict>
 		<key>Headers/IVoiceToText.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+JVX+4n/sgP/eZzaQktTfQHJPd9itq2I8awHSsZoMDg=
+			uuXjiDlE3xY05KjnIZL8Y7Voss+ootZOIIRCf6lz6ho=
 			</data>
 		</dict>
 		<key>Modules/HwAiSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			D843QYBdIVTAesdXJVEJwjmzT+zI7dbgmJyr0hE/4sg=
+			PGGfF7g3u7YflfN7bniqRC3m72wsqnEJ4Tz+ZiuiyMk=
 			</data>
 		</dict>
 		<key>Modules/HwAiSDK.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -297,14 +231,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3n4EzQ3NrkmKb1I5JWXCuydgLNuEKxEwvj+TLRFv1WU=
+			tAJELm83fg7Lt500Q0cKhk9naVvPUAX2BshNphbGc+Y=
 			</data>
 		</dict>
 		<key>Modules/HwAiSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GdHQzmxKNsXGX+UT15LH88Qeit2HZJsQ1/+FJSQjYzs=
+			/fvG0kqee87bdzUkTqCfwgiuPk2DlwBDl3wcypfRXlE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
