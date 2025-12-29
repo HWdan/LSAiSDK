@@ -1461,6 +1461,11 @@ typedef void (^HwBtConnectionStateCallback)(BOOL connected);
 
 #pragma mark - AI
 
+#pragma mark - AI智能体
+- (void) setAiAgentsWithAiAgents:(NSArray<HwAiAgent *> * _Nonnull)aiAgents
+                                              callback:(HwBoolCallback _Nullable)callback;
+- (void) getAiAgentsWithCallback:(void(^_Nonnull)(NSArray<HwAiAgent *> *_Nullable aiAgents, NSError *_Nullable error))callback;
+
 /// Tell watch the app status
 /// @param appStatus HwAppState
 - (void)setAppStatus:(HwAppState)appStatus;
