@@ -48,6 +48,14 @@
 		<data>
 		eT32XGBKXQL6oclDusVIk3cTAL4=
 		</data>
+		<key>Headers/IHealthAnalysisResultHandler.h</key>
+		<data>
+		eJDG5pgC9BX9wbc4HFtIXrBFlPQ=
+		</data>
+		<key>Headers/IInitSDK.h</key>
+		<data>
+		eWofLpUtjIaqvBbboCfc3X0Cat0=
+		</data>
 		<key>Headers/ILog.h</key>
 		<data>
 		/nUtSFjccnQoGolJ/Kxio0/z4Wc=
@@ -66,7 +74,7 @@
 		</data>
 		<key>Modules/HwAiSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		9tRfdE0BmMmyHbqOlZGKLrysxXo=
+		++7cl9xowpVqiCgWS0gBu93XUzc=
 		</data>
 		<key>Modules/HwAiSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -78,7 +86,7 @@
 		</data>
 		<key>Modules/HwAiSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		lm/4t3Xx4Cjo8uJJ5RDQYEkixXc=
+		4iVyZLeqfF2pKuPelMyG40hniQM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -117,6 +125,10 @@
 	<dict>
 		<key>Headers/AiDeviceInfo.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			CZaPgqt16EiFzpZ8bN26jF7Cwy8=
+			</data>
 			<key>hash2</key>
 			<data>
 			4Oa9Fcr9fbr0wzfw3G5lyCxxe6SU7T+RxE6gjJq90T8=
@@ -124,6 +136,10 @@
 		</dict>
 		<key>Headers/AiExerciseAnalyzeModel.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			R66YL3kHPSYho/ewf9coW4kFu/4=
+			</data>
 			<key>hash2</key>
 			<data>
 			SvVyl66bvqomG6ULSRoAT2dvwM0QjgsdzpGgi0AFEio=
@@ -131,6 +147,10 @@
 		</dict>
 		<key>Headers/AiImageUtils.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			f0l4YPV5jVtU1AX2myxQL4i/EXw=
+			</data>
 			<key>hash2</key>
 			<data>
 			KcOgMaBb4nYu5FtkGIoep79TUPApFsKC2zGXvtN/TB0=
@@ -138,6 +158,10 @@
 		</dict>
 		<key>Headers/AiLogger.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			UkAjxW5P8ekiP7C/ZwuOH2AM/aE=
+			</data>
 			<key>hash2</key>
 			<data>
 			BE+OfUAkUVbQZGdh+9jI1a+pSFe2cMYpuQnD+euHxVc=
@@ -145,6 +169,10 @@
 		</dict>
 		<key>Headers/AiOrderInfo.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			df5jVCSU3BtYznhft567gQ1xWno=
+			</data>
 			<key>hash2</key>
 			<data>
 			5G4m7MMgAc3l/JOyrBozv3T0VgIB4n+lStDwfNJRAzM=
@@ -152,6 +180,10 @@
 		</dict>
 		<key>Headers/AiSDK.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			c+9qni5/VUjlglwPRGvkOD0oPCI=
+			</data>
 			<key>hash2</key>
 			<data>
 			t91GZ7XWpF1zWngPqcol1ctVc1ItfgJE5N3M3/kAC/c=
@@ -159,6 +191,10 @@
 		</dict>
 		<key>Headers/AiSDKCallback.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			zJPRSQyi22CXNwnYt/NaOmRXIiM=
+			</data>
 			<key>hash2</key>
 			<data>
 			TzEPlXYxvQd2dNgKy+67Dct9wFVxD4fm6hE9YlgKzlI=
@@ -166,6 +202,10 @@
 		</dict>
 		<key>Headers/AiTextToImageService.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			/wq3JbYceKLunD/ThT9kzIVrlCI=
+			</data>
 			<key>hash2</key>
 			<data>
 			DApIogZ4EcNDcud6/g6O5XxfAhd9pfiC8friS6+V3dM=
@@ -173,6 +213,10 @@
 		</dict>
 		<key>Headers/HwAiSDK-Swift.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			8fdOfnOceHNPQVAiM982uL705FQ=
+			</data>
 			<key>hash2</key>
 			<data>
 			sEcbH5DOrdpufIKx5yVuP/J9d8rGmd3Gt+AySGoqWJc=
@@ -180,6 +224,10 @@
 		</dict>
 		<key>Headers/IAiErrorMessageProvider.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			OQPnXdSUVaVCRLx4nWLsq2hlbdw=
+			</data>
 			<key>hash2</key>
 			<data>
 			UmGmihY9HtiSu072TUSw6ooxeaSs4Ug3lDIfpTjiIFM=
@@ -187,13 +235,43 @@
 		</dict>
 		<key>Headers/IAiWatchfaceNameProvider.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			eT32XGBKXQL6oclDusVIk3cTAL4=
+			</data>
 			<key>hash2</key>
 			<data>
 			SqOMKy4eYkjQHawpbV1nKziTJhWXD033QgxXZKdbsDU=
 			</data>
 		</dict>
+		<key>Headers/IHealthAnalysisResultHandler.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			eJDG5pgC9BX9wbc4HFtIXrBFlPQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			JvwlX+OOjqH8yhrfWKW028RFe6Kvquh13V7pqVzPBik=
+			</data>
+		</dict>
+		<key>Headers/IInitSDK.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			eWofLpUtjIaqvBbboCfc3X0Cat0=
+			</data>
+			<key>hash2</key>
+			<data>
+			6LSGn+yyEIbQT6Gu/kS/S21u4tAAKG9FDXt5XkmIFsI=
+			</data>
+		</dict>
 		<key>Headers/ILog.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			/nUtSFjccnQoGolJ/Kxio0/z4Wc=
+			</data>
 			<key>hash2</key>
 			<data>
 			SsKFFnHdUXNE3LPpT4gWeIp8tjiZlg7cStNGEjZdvUE=
@@ -201,6 +279,10 @@
 		</dict>
 		<key>Headers/ITextToImageHandler.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			1lQ0GCve9m4l7E4YrWh5JP8g6Nk=
+			</data>
 			<key>hash2</key>
 			<data>
 			3Rt4SxipCT3KoFkBl6GuZlAH5RWcFHJFB6IUGY65L7E=
@@ -208,6 +290,10 @@
 		</dict>
 		<key>Headers/IVoiceToText.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			0eElS/LLspf5RL5bLQVSIAlDAWM=
+			</data>
 			<key>hash2</key>
 			<data>
 			uuXjiDlE3xY05KjnIZL8Y7Voss+ootZOIIRCf6lz6ho=
@@ -215,13 +301,21 @@
 		</dict>
 		<key>Modules/HwAiSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			++7cl9xowpVqiCgWS0gBu93XUzc=
+			</data>
 			<key>hash2</key>
 			<data>
-			PGGfF7g3u7YflfN7bniqRC3m72wsqnEJ4Tz+ZiuiyMk=
+			Esxa+oYfpiI7EE1QUv37StjDB6GbDoxO6O25+a/0sU8=
 			</data>
 		</dict>
 		<key>Modules/HwAiSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			gcwBsH4BgyFY4sVtNt+/xOKS3vY=
+			</data>
 			<key>hash2</key>
 			<data>
 			Qnesa0n4URGWAopawg9bGx36dUwkYV00BoCJ8LFzlyg=
@@ -229,6 +323,10 @@
 		</dict>
 		<key>Modules/HwAiSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			KjkjOCxQefrQnUWaAto4KbMBPhE=
+			</data>
 			<key>hash2</key>
 			<data>
 			tAJELm83fg7Lt500Q0cKhk9naVvPUAX2BshNphbGc+Y=
@@ -236,13 +334,21 @@
 		</dict>
 		<key>Modules/HwAiSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			4iVyZLeqfF2pKuPelMyG40hniQM=
+			</data>
 			<key>hash2</key>
 			<data>
-			/fvG0kqee87bdzUkTqCfwgiuPk2DlwBDl3wcypfRXlE=
+			emqVEMtK7g3HZQlAxQ5778gbAZNLVdawr8x8gMqTfMU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			MnHpAQ8xS6ndztplmcrviF7P858=
+			</data>
 			<key>hash2</key>
 			<data>
 			nxKOi2B6v4FzQVRXzy4sG0J3OmPxsOEg7oIraioya4c=
@@ -250,6 +356,10 @@
 		</dict>
 		<key>date_num_31.png</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			Cv1Ig87e3O06CYkxh5ar+eDETdU=
+			</data>
 			<key>hash2</key>
 			<data>
 			BSowmxk9QgsLb0U5Y4o6bwthhFW5DSWZ5Jq/C7BIiy8=
@@ -257,6 +367,10 @@
 		</dict>
 		<key>date_num_35.png</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			sHkoZN06Dq+TZ/RjyN7CRpgsXqA=
+			</data>
 			<key>hash2</key>
 			<data>
 			p5Tn8dBFS8m+e2H0vFZNee3oQn5vSe9YHoeCHWTRMTc=
@@ -264,6 +378,10 @@
 		</dict>
 		<key>time_b_25.png</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			D0oiYKlWkAZE/jDxBmh8Fp8vH8w=
+			</data>
 			<key>hash2</key>
 			<data>
 			50mPAN9zzE3mR3JTgH17j1U0+ci5THSTSf4KR7jnQus=
@@ -271,6 +389,10 @@
 		</dict>
 		<key>time_b_30.png</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			B+SPqp/65TpKuLMljnxZyRYCd9Y=
+			</data>
 			<key>hash2</key>
 			<data>
 			BB00DJ0WofXfkDMV8cIcOwSMwBuB+GYpViiKGKrRb5w=
@@ -278,6 +400,10 @@
 		</dict>
 		<key>time_b_31.png</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			DBQ8otOrXozF2LzcuAulA2rLGgg=
+			</data>
 			<key>hash2</key>
 			<data>
 			MM8/ZyS4KW54vVQjpl8gdFWx7vi+bDVevk89UWcIDkQ=
@@ -285,6 +411,10 @@
 		</dict>
 		<key>time_b_32.png</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			EEWNVnRyt5af9TulsxScDOizPDM=
+			</data>
 			<key>hash2</key>
 			<data>
 			HBdsTqgnMWBQT6ZpJnXMpAPQGHmVQ31pQDiTU04xVFM=
@@ -292,6 +422,10 @@
 		</dict>
 		<key>week_06.png</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			i6lvk1VUaPGTdpwlQ3/hbmWJDXI=
+			</data>
 			<key>hash2</key>
 			<data>
 			Zk9VhVMMnyHwzfjTrs0xRpAp/tAhsPpi3S5EnKNFyOY=
