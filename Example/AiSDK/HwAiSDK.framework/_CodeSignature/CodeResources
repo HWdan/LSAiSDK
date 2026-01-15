@@ -36,6 +36,10 @@
 		<data>
 		/wq3JbYceKLunD/ThT9kzIVrlCI=
 		</data>
+		<key>Headers/DefaultImageToWatchfaceHandler.h</key>
+		<data>
+		rwzAJEIWHdy24dF5yUvGhR2mlW8=
+		</data>
 		<key>Headers/HwAiSDK-Swift.h</key>
 		<data>
 		8fdOfnOceHNPQVAiM982uL705FQ=
@@ -74,7 +78,7 @@
 		</data>
 		<key>Modules/HwAiSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		8kg3t3EfnhyNHnZNHUbKhNFzqC8=
+		UsjEVmwhfoMvr+MkNJCfwCvIFRU=
 		</data>
 		<key>Modules/HwAiSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -86,7 +90,7 @@
 		</data>
 		<key>Modules/HwAiSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		mOsqDxBZDm0Ecm8cR3gd2ImrpnY=
+		vwy7/hJpUtRmlQlKH2/9fUik3Nw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -211,6 +215,17 @@
 			DApIogZ4EcNDcud6/g6O5XxfAhd9pfiC8friS6+V3dM=
 			</data>
 		</dict>
+		<key>Headers/DefaultImageToWatchfaceHandler.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rwzAJEIWHdy24dF5yUvGhR2mlW8=
+			</data>
+			<key>hash2</key>
+			<data>
+			STk7wrRIT3m74A9v2kJ2a99CvVZhc1kFxak+B9TQOz4=
+			</data>
+		</dict>
 		<key>Headers/HwAiSDK-Swift.h</key>
 		<dict>
 			<key>hash</key>
@@ -303,11 +318,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8kg3t3EfnhyNHnZNHUbKhNFzqC8=
+			UsjEVmwhfoMvr+MkNJCfwCvIFRU=
 			</data>
 			<key>hash2</key>
 			<data>
-			sJrJM4bCaeCOtoAAJJdvtsJSOBJ8yCqyc6j5vb1yb2Q=
+			5BAYzshK7MlEE9ED+xcdxc7pWBKqGxqLSS1K868LAmo=
 			</data>
 		</dict>
 		<key>Modules/HwAiSDK.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -336,11 +351,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mOsqDxBZDm0Ecm8cR3gd2ImrpnY=
+			vwy7/hJpUtRmlQlKH2/9fUik3Nw=
 			</data>
 			<key>hash2</key>
 			<data>
-			Yrj8Ryis+1GUmIean0lFlcQX0kr3bF3gjZBH7iEXe5A=
+			LP0pH3GIQ9YvTHxe4+NqrFUu9iE611MW6y5Ff7pIPgo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
