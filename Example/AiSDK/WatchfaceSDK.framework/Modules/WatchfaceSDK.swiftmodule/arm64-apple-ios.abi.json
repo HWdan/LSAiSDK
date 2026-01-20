@@ -30956,1085 +30956,1085 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/OTA\/HwOTAUpdateManager.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/OTA\/HwOTAUpdateManager.swift",
       "kind": "IntegerLiteral",
       "offset": 237,
       "length": 7,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/OTA\/HwOTAUpdateManager.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/OTA\/HwOTAUpdateManager.swift",
       "kind": "IntegerLiteral",
       "offset": 274,
       "length": 7,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/OTA\/HwOTAUpdateManager.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/OTA\/HwOTAUpdateManager.swift",
       "kind": "IntegerLiteral",
       "offset": 605,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/OTA\/HwOTAUpdateManager.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/OTA\/HwOTAUpdateManager.swift",
       "kind": "Array",
       "offset": 716,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/OTA\/HwOTAUpdateManager.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/OTA\/HwOTAUpdateManager.swift",
       "kind": "BooleanLiteral",
       "offset": 795,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/widget\/QjsDateWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/widget\/QjsDateWidget.swift",
       "kind": "Dictionary",
       "offset": 95,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/widget\/QjsHourPointerWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/widget\/QjsHourPointerWidget.swift",
       "kind": "StringLiteral",
       "offset": 111,
       "length": 18,
       "value": "\"pointer_hour.png\""
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/widget\/QjsIconDataWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/widget\/QjsIconDataWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 74,
       "length": 5,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/widget\/QjsIconDataWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/widget\/QjsIconDataWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 89,
       "length": 6,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/widget\/QjsIconDataWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/widget\/QjsIconDataWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 105,
       "length": 4,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/widget\/QjsIconDataWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/widget\/QjsIconDataWidget.swift",
       "kind": "Dictionary",
       "offset": 213,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/widget\/QjsIconDataWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/widget\/QjsIconDataWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 243,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/widget\/QjsMinutePointerWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/widget\/QjsMinutePointerWidget.swift",
       "kind": "StringLiteral",
       "offset": 113,
       "length": 17,
       "value": "\"pointer_min.png\""
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/widget\/QjsSecondPointerWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/widget\/QjsSecondPointerWidget.swift",
       "kind": "StringLiteral",
       "offset": 113,
       "length": 20,
       "value": "\"pointer_second.png\""
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/widget\/QjsTimeWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/widget\/QjsTimeWidget.swift",
       "kind": "Dictionary",
       "offset": 103,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/widget\/QjsTimeWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/widget\/QjsTimeWidget.swift",
       "kind": "StringLiteral",
       "offset": 148,
       "length": 15,
       "value": "\"time_b_25.png\""
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/widget\/QjsTimeWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/widget\/QjsTimeWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 302,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/widget\/QjsTimeWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/widget\/QjsTimeWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 318,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/widget\/QjsTimeWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/widget\/QjsTimeWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 335,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/widget\/QjsTimeWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/widget\/QjsTimeWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 347,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/widget\/QjsTimeWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/widget\/QjsTimeWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 359,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/widget\/QjsTimeWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/widget\/QjsTimeWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 379,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/widget\/QjsTimeWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/widget\/QjsTimeWidget.swift",
       "kind": "StringLiteral",
       "offset": 397,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/widget\/QjsWeatherTAWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/widget\/QjsWeatherTAWidget.swift",
       "kind": "Array",
       "offset": 121,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/widget\/QjsWeekWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/widget\/QjsWeekWidget.swift",
       "kind": "Dictionary",
       "offset": 106,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/SlifiCustomWatchface.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/SlifiCustomWatchface.swift",
       "kind": "StringLiteral",
       "offset": 164,
       "length": 8,
       "value": "\"custom\""
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/SlifiCustomWatchface.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/SlifiCustomWatchface.swift",
       "kind": "Array",
       "offset": 421,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/SlifiCustomWatchface.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/SlifiCustomWatchface.swift",
       "kind": "IntegerLiteral",
       "offset": 551,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/SlifiCustomWatchface.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Custom\/SlifiCustomWatchface.swift",
       "kind": "IntegerLiteral",
       "offset": 568,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/geo\/Point.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/geo\/Point.swift",
       "kind": "IntegerLiteral",
       "offset": 181,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/geo\/Point.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/geo\/Point.swift",
       "kind": "IntegerLiteral",
       "offset": 187,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/geo\/Size.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/geo\/Size.swift",
       "kind": "IntegerLiteral",
       "offset": 219,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/geo\/Size.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/geo\/Size.swift",
       "kind": "IntegerLiteral",
       "offset": 230,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/utils\/LsUIColorHwKit.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/utils\/LsUIColorHwKit.swift",
       "kind": "FloatLiteral",
       "offset": 115,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/utils\/QjsFileUtils.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/utils\/QjsFileUtils.swift",
       "kind": "StringLiteral",
       "offset": 142,
       "length": 11,
       "value": "\"FileUtils\""
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/utils\/QjsFileUtils.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/utils\/QjsFileUtils.swift",
       "kind": "IntegerLiteral",
       "offset": 26693,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/utils\/QjsFileUtils.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/utils\/QjsFileUtils.swift",
       "kind": "IntegerLiteral",
       "offset": 26762,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/utils\/QjsFileUtils.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/utils\/QjsFileUtils.swift",
       "kind": "IntegerLiteral",
       "offset": 26791,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/utils\/QjsFileUtils.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/utils\/QjsFileUtils.swift",
       "kind": "IntegerLiteral",
       "offset": 26884,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/utils\/QjsFileUtils.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/utils\/QjsFileUtils.swift",
       "kind": "IntegerLiteral",
       "offset": 26922,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/utils\/QjsFileUtils.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/utils\/QjsFileUtils.swift",
       "kind": "IntegerLiteral",
       "offset": 27191,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/ArcWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/ArcWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 71,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/ArcWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/ArcWidget.swift",
       "kind": "BooleanLiteral",
       "offset": 93,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/ArcWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/ArcWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 141,
       "length": 4,
       "value": "0xF3"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/ArcWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/ArcWidget.swift",
       "kind": "FloatLiteral",
       "offset": 146,
       "length": 5,
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/ArcWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/ArcWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 160,
       "length": 4,
       "value": "0x91"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/ArcWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/ArcWidget.swift",
       "kind": "FloatLiteral",
       "offset": 165,
       "length": 5,
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/ArcWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/ArcWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 178,
       "length": 4,
       "value": "0xA9"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/ArcWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/ArcWidget.swift",
       "kind": "FloatLiteral",
       "offset": 183,
       "length": 5,
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/ArcWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/ArcWidget.swift",
       "kind": "FloatLiteral",
       "offset": 197,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/ArcWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/ArcWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 271,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/ArcWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/ArcWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 297,
       "length": 3,
       "value": "360"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/GifSelectionWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/GifSelectionWidget.swift",
       "kind": "Array",
       "offset": 77,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/GifSelectionWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/GifSelectionWidget.swift",
       "kind": "Array",
       "offset": 109,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/GifSelectionWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/GifSelectionWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 138,
       "length": 3,
       "value": "400"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/GifSelectionWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/GifSelectionWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 170,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/GifSelectionWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/GifSelectionWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 196,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/GifSelectionWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/GifSelectionWidget.swift",
       "kind": "BooleanLiteral",
       "offset": 219,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/GifSelectionWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/GifSelectionWidget.swift",
       "kind": "StringLiteral",
       "offset": 255,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/GifWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/GifWidget.swift",
       "kind": "StringLiteral",
       "offset": 119,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/GifWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/GifWidget.swift",
       "kind": "StringLiteral",
       "offset": 155,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/GroupWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/GroupWidget.swift",
       "kind": "Dictionary",
       "offset": 81,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/GroupWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/GroupWidget.swift",
       "kind": "Dictionary",
       "offset": 121,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/GroupWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/GroupWidget.swift",
       "kind": "StringLiteral",
       "offset": 155,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/LineImageWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/LineImageWidget.swift",
       "kind": "BooleanLiteral",
       "offset": 78,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/LinkTextWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/LinkTextWidget.swift",
       "kind": "StringLiteral",
       "offset": 79,
       "length": 3,
       "value": "\"%\""
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/LinkTextWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/LinkTextWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 721,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/LinkTextWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/LinkTextWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 754,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/LinkTextWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/LinkTextWidget.swift",
       "kind": "StringLiteral",
       "offset": 786,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/LinkTextWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/LinkTextWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 816,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/OptionWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/OptionWidget.swift",
       "kind": "Dictionary",
       "offset": 85,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/OptionWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/OptionWidget.swift",
       "kind": "Array",
       "offset": 120,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/OptionWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/OptionWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 147,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/OptionWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/OptionWidget.swift",
       "kind": "StringLiteral",
       "offset": 179,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/PointerWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/PointerWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 170,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/PointerWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/PointerWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 196,
       "length": 3,
       "value": "360"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/SequenceImageWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/SequenceImageWidget.swift",
       "kind": "Array",
       "offset": 84,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/SequenceImageWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/SequenceImageWidget.swift",
       "kind": "Array",
       "offset": 118,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/SequenceImageWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/SequenceImageWidget.swift",
       "kind": "StringLiteral",
       "offset": 147,
       "length": 6,
       "value": "\"once\""
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/SequenceImageWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/SequenceImageWidget.swift",
       "kind": "StringLiteral",
       "offset": 184,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/SequenceImageWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/SequenceImageWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 214,
       "length": 2,
       "value": "80"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/SequenceImageWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/SequenceImageWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 243,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/SingleImageWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/SingleImageWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 103,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/SingleImageWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/SingleImageWidget.swift",
       "kind": "StringLiteral",
       "offset": 133,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/TextWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/TextWidget.swift",
       "kind": "StringLiteral",
       "offset": 151,
       "length": 27,
       "value": "\"HarmonyOS_Sans_SC_Regular\""
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/TextWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/TextWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 203,
       "length": 2,
       "value": "32"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/ValueWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/ValueWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 73,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/ValueWidget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/ValueWidget.swift",
       "kind": "IntegerLiteral",
       "offset": 97,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/Widget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/Widget.swift",
       "kind": "StringLiteral",
       "offset": 67,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/Widget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/Widget.swift",
       "kind": "StringLiteral",
       "offset": 99,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/Widget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/Widget.swift",
       "kind": "StringLiteral",
       "offset": 131,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/Widget.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/widgets\/Widget.swift",
       "kind": "StringLiteral",
       "offset": 267,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/LsQjsDependence.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/LsQjsDependence.swift",
       "kind": "StringLiteral",
       "offset": 84,
       "length": 22,
       "value": "\"\/support_script\/qjs\/\""
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/QjsValueType.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/QjsValueType.swift",
       "kind": "IntegerLiteral",
       "offset": 73,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/QjsValueType.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/QjsValueType.swift",
       "kind": "IntegerLiteral",
       "offset": 96,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/QjsValueType.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/QjsValueType.swift",
       "kind": "IntegerLiteral",
       "offset": 120,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/QjsValueType.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/QjsValueType.swift",
       "kind": "IntegerLiteral",
       "offset": 146,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/QjsValueType.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/QjsValueType.swift",
       "kind": "IntegerLiteral",
       "offset": 174,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/QjsValueType.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/QjsValueType.swift",
       "kind": "IntegerLiteral",
       "offset": 206,
       "length": 2,
       "value": "73"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/QjsValueType.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/QjsValueType.swift",
       "kind": "IntegerLiteral",
       "offset": 231,
       "length": 1,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/QjsValueType.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/QjsValueType.swift",
       "kind": "IntegerLiteral",
       "offset": 252,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/QjsValueType.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/QjsValueType.swift",
       "kind": "IntegerLiteral",
       "offset": 276,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/QjsValueType.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/QjsValueType.swift",
       "kind": "IntegerLiteral",
       "offset": 300,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/QjsValueType.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/QjsValueType.swift",
       "kind": "IntegerLiteral",
       "offset": 326,
       "length": 3,
       "value": "150"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/QjsValueType.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/QjsValueType.swift",
       "kind": "IntegerLiteral",
       "offset": 355,
       "length": 3,
       "value": "153"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/QjsValueType.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/QjsValueType.swift",
       "kind": "IntegerLiteral",
       "offset": 384,
       "length": 3,
       "value": "154"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/QjsValueType.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/QjsValueType.swift",
       "kind": "IntegerLiteral",
       "offset": 408,
       "length": 2,
       "value": "52"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/QjsValueType.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/QjsValueType.swift",
       "kind": "IntegerLiteral",
       "offset": 430,
       "length": 2,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/QjsValueType.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/QjsValueType.swift",
       "kind": "IntegerLiteral",
       "offset": 456,
       "length": 3,
       "value": "146"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/QjsValueType.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/QjsValueType.swift",
       "kind": "IntegerLiteral",
       "offset": 482,
       "length": 2,
       "value": "21"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/QjsValueType.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/QjsValueType.swift",
       "kind": "IntegerLiteral",
       "offset": 509,
       "length": 3,
       "value": "214"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/SifliQjsWatchface.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/SifliQjsWatchface.swift",
       "kind": "IntegerLiteral",
       "offset": 166,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/SifliQjsWatchface.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/SifliQjsWatchface.swift",
       "kind": "IntegerLiteral",
       "offset": 189,
       "length": 3,
       "value": "466"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/SifliQjsWatchface.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/SifliQjsWatchface.swift",
       "kind": "IntegerLiteral",
       "offset": 215,
       "length": 3,
       "value": "466"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/SifliQjsWatchface.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/SifliQjsWatchface.swift",
       "kind": "Array",
       "offset": 250,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/SifliQjsWatchface.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/SifliQjsWatchface.swift",
       "kind": "BooleanLiteral",
       "offset": 356,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/SifliQjsWatchface.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/Qjs\/SifliQjsWatchface.swift",
       "kind": "BooleanLiteral",
       "offset": 608,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/QjsError.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/QjsError.swift",
       "kind": "IntegerLiteral",
       "offset": 70,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/QjsError.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/QjsError.swift",
       "kind": "IntegerLiteral",
       "offset": 96,
       "length": 4,
       "value": "4000"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/QjsError.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/QjsError.swift",
       "kind": "IntegerLiteral",
       "offset": 127,
       "length": 4,
       "value": "4100"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/QjsError.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/QjsError.swift",
       "kind": "IntegerLiteral",
       "offset": 160,
       "length": 4,
       "value": "4102"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/QjsError.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/QjsError.swift",
       "kind": "IntegerLiteral",
       "offset": 185,
       "length": 4,
       "value": "4200"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/QjsError.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/QjsError.swift",
       "kind": "IntegerLiteral",
       "offset": 216,
       "length": 4,
       "value": "4300"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/QjsError.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/QjsError.swift",
       "kind": "IntegerLiteral",
       "offset": 249,
       "length": 4,
       "value": "4400"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/QjsError.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/QjsError.swift",
       "kind": "IntegerLiteral",
       "offset": 278,
       "length": 4,
       "value": "4440"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/QjsError.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/QjsError.swift",
       "kind": "IntegerLiteral",
       "offset": 314,
       "length": 4,
       "value": "4401"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/QjsError.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/QjsError.swift",
       "kind": "IntegerLiteral",
       "offset": 347,
       "length": 4,
       "value": "4501"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/QjsError.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/QjsError.swift",
       "kind": "IntegerLiteral",
       "offset": 383,
       "length": 4,
       "value": "4504"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/QjsError.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/QjsError.swift",
       "kind": "IntegerLiteral",
       "offset": 410,
       "length": 4,
       "value": "4766"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
       "kind": "BooleanLiteral",
       "offset": 310,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
       "kind": "FloatLiteral",
       "offset": 467,
       "length": 5,
       "value": "466.0"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
       "kind": "FloatLiteral",
       "offset": 511,
       "length": 5,
       "value": "466.0"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
       "kind": "BooleanLiteral",
       "offset": 822,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
       "kind": "StringLiteral",
       "offset": 1810,
       "length": 97,
       "value": "\"Please call WatchfaceSDK.getInstance().initSDK(application: UIApplication) before using any API\""
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
       "kind": "BooleanLiteral",
       "offset": 1995,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
       "kind": "StringLiteral",
       "offset": 2002,
       "length": 15,
       "value": "\"Repeated task\""
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
       "kind": "IntegerLiteral",
       "offset": 2019,
       "length": 3,
       "value": "190"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
       "kind": "IntegerLiteral",
       "offset": 2024,
       "length": 3,
       "value": "190"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
       "kind": "BooleanLiteral",
       "offset": 2114,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
       "kind": "IntegerLiteral",
       "offset": 2573,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
       "kind": "BooleanLiteral",
       "offset": 2901,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
       "kind": "StringLiteral",
       "offset": 2918,
       "length": 16,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
       "kind": "StringLiteral",
       "offset": 2933,
       "length": 80,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
       "kind": "BooleanLiteral",
       "offset": 3008,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
       "kind": "FloatLiteral",
       "offset": 3206,
       "length": 3,
       "value": "3.0"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
       "kind": "FloatLiteral",
       "offset": 3234,
       "length": 3,
       "value": "3.0"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
       "kind": "BooleanLiteral",
       "offset": 3320,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
       "kind": "StringLiteral",
       "offset": 3337,
       "length": 16,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
       "kind": "StringLiteral",
       "offset": 3352,
       "length": 81,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
       "kind": "BooleanLiteral",
       "offset": 3427,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
       "kind": "BooleanLiteral",
       "offset": 3816,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
       "kind": "StringLiteral",
       "offset": 3823,
       "length": 15,
       "value": "\"Repeated task\""
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
       "kind": "IntegerLiteral",
       "offset": 3840,
       "length": 3,
       "value": "190"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
       "kind": "IntegerLiteral",
       "offset": 3845,
       "length": 3,
       "value": "190"
     },
     {
-      "filePath": "\/Users\/qiwo\/Desktop\/git codes\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
+      "filePath": "\/Users\/qiwo\/Desktop\/hwaisdk更换sdk\/hwwatchfacesdk\/WatchfaceSDK\/Sources\/Watchface\/SifliWatchfaceSDK.swift",
       "kind": "BooleanLiteral",
       "offset": 4124,
       "length": 5,
