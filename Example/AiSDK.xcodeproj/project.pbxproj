@@ -37,7 +37,7 @@
 		9C70BB0D2F1F571A00B41977 /* SifliOTAManagerSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9C70BB082F1F570000B41977 /* SifliOTAManagerSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9C70BB0E2F1F572100B41977 /* WatchfaceSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C70BB042F1F56D400B41977 /* WatchfaceSDK.framework */; };
 		9C70BB0F2F1F572100B41977 /* WatchfaceSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9C70BB042F1F56D400B41977 /* WatchfaceSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		9C70C55A2F1F8E7800B41977 /* HwAiSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C70C5592F1F8E7800B41977 /* HwAiSDK.framework */; };
+		9C70C55C2F1F922200B41977 /* HwAiSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C70C55B2F1F922200B41977 /* HwAiSDK.framework */; };
 		9CBC82CF2EFA6C2B00E28639 /* SFDialPlateSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CBC82C62EFA6A1B00E28639 /* SFDialPlateSDK.framework */; };
 		9CBC82D02EFA6C2B00E28639 /* SFDialPlateSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9CBC82C62EFA6A1B00E28639 /* SFDialPlateSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9CBC82DB2EFA6CAC00E28639 /* eZIPSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CBC82D72EFA6C7300E28639 /* eZIPSDK.framework */; };
@@ -117,7 +117,7 @@
 		98D28D18C9AAB82237CF4156 /* Pods-AiSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AiSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-AiSDK_Example/Pods-AiSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9C70BB042F1F56D400B41977 /* WatchfaceSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WatchfaceSDK.framework; sourceTree = "<group>"; };
 		9C70BB082F1F570000B41977 /* SifliOTAManagerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SifliOTAManagerSDK.framework; sourceTree = "<group>"; };
-		9C70C5592F1F8E7800B41977 /* HwAiSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HwAiSDK.framework; sourceTree = "<group>"; };
+		9C70C55B2F1F922200B41977 /* HwAiSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HwAiSDK.framework; sourceTree = "<group>"; };
 		9CBC82C62EFA6A1B00E28639 /* SFDialPlateSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SFDialPlateSDK.framework; sourceTree = "<group>"; };
 		9CBC82D72EFA6C7300E28639 /* eZIPSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = eZIPSDK.framework; sourceTree = "<group>"; };
 		9CBC82D92EFA6C7F00E28639 /* NativeLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NativeLib.framework; sourceTree = "<group>"; };
@@ -138,7 +138,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				9CBC82CF2EFA6C2B00E28639 /* SFDialPlateSDK.framework in Frameworks */,
 				9CBC82DB2EFA6CAC00E28639 /* eZIPSDK.framework in Frameworks */,
-				9C70C55A2F1F8E7800B41977 /* HwAiSDK.framework in Frameworks */,
+				9C70C55C2F1F922200B41977 /* HwAiSDK.framework in Frameworks */,
 				9CBC82DD2EFA6CB300E28639 /* NativeLib.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -198,7 +198,7 @@
 		6003F593195388D20070C39A /* Example for AiSDK */ = {
 			isa = PBXGroup;
 			children = (
-				9C70C5592F1F8E7800B41977 /* HwAiSDK.framework */,
+				9C70C55B2F1F922200B41977 /* HwAiSDK.framework */,
 				9C70BB042F1F56D400B41977 /* WatchfaceSDK.framework */,
 				9C70BB082F1F570000B41977 /* SifliOTAManagerSDK.framework */,
 				9CDC9ADB2F0D242B00D6ED13 /* HwBluetoothSDK.framework */,
