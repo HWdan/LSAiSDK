@@ -43,8 +43,8 @@
 		9CBC82DC2EFA6CAC00E28639 /* eZIPSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9CBC82D72EFA6C7300E28639 /* eZIPSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9CBC82DD2EFA6CB300E28639 /* NativeLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CBC82D92EFA6C7F00E28639 /* NativeLib.framework */; };
 		9CBC82DE2EFA6CB300E28639 /* NativeLib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9CBC82D92EFA6C7F00E28639 /* NativeLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		9CC60B582F206FFF00A69081 /* HwAiSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC60B562F206FF800A69081 /* HwAiSDK.framework */; };
-		9CC60B592F206FFF00A69081 /* HwAiSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC60B562F206FF800A69081 /* HwAiSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9CC610642F20BB8C00A69081 /* HwAiSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC610632F20BB8C00A69081 /* HwAiSDK.framework */; };
+		9CC610662F20BB9C00A69081 /* HwAiSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9CC610652F20BB9C00A69081 /* HwAiSDKResources.bundle */; };
 		9CDC9ADF2F0D243400D6ED13 /* HwBluetoothSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CDC9ADB2F0D242B00D6ED13 /* HwBluetoothSDK.framework */; };
 		9CDC9AE02F0D243400D6ED13 /* HwBluetoothSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9CDC9ADB2F0D242B00D6ED13 /* HwBluetoothSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -71,7 +71,6 @@
 				9CBC82D02EFA6C2B00E28639 /* SFDialPlateSDK.framework in Embed Frameworks */,
 				9CBC82DC2EFA6CAC00E28639 /* eZIPSDK.framework in Embed Frameworks */,
 				9C70BB0D2F1F571A00B41977 /* SifliOTAManagerSDK.framework in Embed Frameworks */,
-				9CC60B592F206FFF00A69081 /* HwAiSDK.framework in Embed Frameworks */,
 				9C70BB0F2F1F572100B41977 /* WatchfaceSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -122,7 +121,8 @@
 		9CBC82C62EFA6A1B00E28639 /* SFDialPlateSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SFDialPlateSDK.framework; sourceTree = "<group>"; };
 		9CBC82D72EFA6C7300E28639 /* eZIPSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = eZIPSDK.framework; sourceTree = "<group>"; };
 		9CBC82D92EFA6C7F00E28639 /* NativeLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NativeLib.framework; sourceTree = "<group>"; };
-		9CC60B562F206FF800A69081 /* HwAiSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HwAiSDK.framework; sourceTree = "<group>"; };
+		9CC610632F20BB8C00A69081 /* HwAiSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HwAiSDK.framework; sourceTree = "<group>"; };
+		9CC610652F20BB9C00A69081 /* HwAiSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HwAiSDKResources.bundle; sourceTree = "<group>"; };
 		9CDC9ADB2F0D242B00D6ED13 /* HwBluetoothSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HwBluetoothSDK.framework; sourceTree = "<group>"; };
 		9F7A4C2D9D400A1BEBEA13B1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BAEA22DA428A6AA687BC19BC /* AiSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AiSDK.podspec; path = ../AiSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -140,7 +140,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				9CBC82CF2EFA6C2B00E28639 /* SFDialPlateSDK.framework in Frameworks */,
 				9CBC82DB2EFA6CAC00E28639 /* eZIPSDK.framework in Frameworks */,
-				9CC60B582F206FFF00A69081 /* HwAiSDK.framework in Frameworks */,
+				9CC610642F20BB8C00A69081 /* HwAiSDK.framework in Frameworks */,
 				9CBC82DD2EFA6CB300E28639 /* NativeLib.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -200,7 +200,8 @@
 		6003F593195388D20070C39A /* Example for AiSDK */ = {
 			isa = PBXGroup;
 			children = (
-				9CC60B562F206FF800A69081 /* HwAiSDK.framework */,
+				9CC610652F20BB9C00A69081 /* HwAiSDKResources.bundle */,
+				9CC610632F20BB8C00A69081 /* HwAiSDK.framework */,
 				9C70BB042F1F56D400B41977 /* WatchfaceSDK.framework */,
 				9C70BB082F1F570000B41977 /* SifliOTAManagerSDK.framework */,
 				9CDC9ADB2F0D242B00D6ED13 /* HwBluetoothSDK.framework */,
@@ -371,6 +372,7 @@
 				2BC74C2E2D2FC30A002F72D2 /* LaunchScreen.xib in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				2BC74C362D2FCD41002F72D2 /* LogCell.xib in Resources */,
+				9CC610662F20BB9C00A69081 /* HwAiSDKResources.bundle in Resources */,
 				2BC74C322D2FC389002F72D2 /* HwMainVC.xib in Resources */,
 				2BC74C3A2D2FD4DE002F72D2 /* ConnectVC.xib in Resources */,
 				2BC74D6B2D351549002F72D2 /* girl.jpeg in Resources */,
