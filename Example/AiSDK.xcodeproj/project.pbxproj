@@ -33,6 +33,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		662FBA36B402DCAF7FD6BE2E /* Pods_AiSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C53935C4E022C04029A6D10D /* Pods_AiSDK_Tests.framework */; };
+		9C4F4ED12F57DD93004ECA46 /* HwBluetoothSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C4F4ED02F57DD93004ECA46 /* HwBluetoothSDK.framework */; };
 		9C70BB0C2F1F571A00B41977 /* SifliOTAManagerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C70BB082F1F570000B41977 /* SifliOTAManagerSDK.framework */; };
 		9C70BB0D2F1F571A00B41977 /* SifliOTAManagerSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9C70BB082F1F570000B41977 /* SifliOTAManagerSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9C70BB0E2F1F572100B41977 /* WatchfaceSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C70BB042F1F56D400B41977 /* WatchfaceSDK.framework */; };
@@ -45,8 +46,6 @@
 		9CBC82DE2EFA6CB300E28639 /* NativeLib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9CBC82D92EFA6C7F00E28639 /* NativeLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9CC610642F20BB8C00A69081 /* HwAiSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC610632F20BB8C00A69081 /* HwAiSDK.framework */; };
 		9CC610662F20BB9C00A69081 /* HwAiSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9CC610652F20BB9C00A69081 /* HwAiSDKResources.bundle */; };
-		9CDC9ADF2F0D243400D6ED13 /* HwBluetoothSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CDC9ADB2F0D242B00D6ED13 /* HwBluetoothSDK.framework */; };
-		9CDC9AE02F0D243400D6ED13 /* HwBluetoothSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9CDC9ADB2F0D242B00D6ED13 /* HwBluetoothSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,7 +66,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				9CBC82DE2EFA6CB300E28639 /* NativeLib.framework in Embed Frameworks */,
-				9CDC9AE02F0D243400D6ED13 /* HwBluetoothSDK.framework in Embed Frameworks */,
 				9CBC82D02EFA6C2B00E28639 /* SFDialPlateSDK.framework in Embed Frameworks */,
 				9CBC82DC2EFA6CAC00E28639 /* eZIPSDK.framework in Embed Frameworks */,
 				9C70BB0D2F1F571A00B41977 /* SifliOTAManagerSDK.framework in Embed Frameworks */,
@@ -116,6 +114,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		7A2F462F3E7B051F78C3ECAD /* Pods-AiSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AiSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-AiSDK_Tests/Pods-AiSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		98D28D18C9AAB82237CF4156 /* Pods-AiSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AiSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-AiSDK_Example/Pods-AiSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9C4F4ED02F57DD93004ECA46 /* HwBluetoothSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HwBluetoothSDK.framework; sourceTree = "<group>"; };
 		9C70BB042F1F56D400B41977 /* WatchfaceSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WatchfaceSDK.framework; sourceTree = "<group>"; };
 		9C70BB082F1F570000B41977 /* SifliOTAManagerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SifliOTAManagerSDK.framework; sourceTree = "<group>"; };
 		9CBC82C62EFA6A1B00E28639 /* SFDialPlateSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SFDialPlateSDK.framework; sourceTree = "<group>"; };
@@ -123,7 +122,6 @@
 		9CBC82D92EFA6C7F00E28639 /* NativeLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NativeLib.framework; sourceTree = "<group>"; };
 		9CC610632F20BB8C00A69081 /* HwAiSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HwAiSDK.framework; sourceTree = "<group>"; };
 		9CC610652F20BB9C00A69081 /* HwAiSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HwAiSDKResources.bundle; sourceTree = "<group>"; };
-		9CDC9ADB2F0D242B00D6ED13 /* HwBluetoothSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HwBluetoothSDK.framework; sourceTree = "<group>"; };
 		9F7A4C2D9D400A1BEBEA13B1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BAEA22DA428A6AA687BC19BC /* AiSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AiSDK.podspec; path = ../AiSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C53935C4E022C04029A6D10D /* Pods_AiSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AiSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,7 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C70BB0E2F1F572100B41977 /* WatchfaceSDK.framework in Frameworks */,
-				9CDC9ADF2F0D243400D6ED13 /* HwBluetoothSDK.framework in Frameworks */,
+				9C4F4ED12F57DD93004ECA46 /* HwBluetoothSDK.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				9CBC82CF2EFA6C2B00E28639 /* SFDialPlateSDK.framework in Frameworks */,
 				9CBC82DB2EFA6CAC00E28639 /* eZIPSDK.framework in Frameworks */,
@@ -203,8 +201,8 @@
 				9CC610652F20BB9C00A69081 /* HwAiSDKResources.bundle */,
 				9CC610632F20BB8C00A69081 /* HwAiSDK.framework */,
 				9C70BB042F1F56D400B41977 /* WatchfaceSDK.framework */,
+				9C4F4ED02F57DD93004ECA46 /* HwBluetoothSDK.framework */,
 				9C70BB082F1F570000B41977 /* SifliOTAManagerSDK.framework */,
-				9CDC9ADB2F0D242B00D6ED13 /* HwBluetoothSDK.framework */,
 				9CBC82D92EFA6C7F00E28639 /* NativeLib.framework */,
 				9CBC82D72EFA6C7300E28639 /* eZIPSDK.framework */,
 				9CBC82C62EFA6A1B00E28639 /* SFDialPlateSDK.framework */,

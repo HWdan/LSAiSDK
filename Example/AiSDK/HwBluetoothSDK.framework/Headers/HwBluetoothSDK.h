@@ -1459,6 +1459,11 @@ typedef void (^HwBtConnectionStateCallback)(BOOL connected);
 - (void) removeDeviceMusicStorageChangedListener:(HwAvailableStorageCallback _Nonnull)callback;
 - (void) removeAllDeviceMusicStorageChangedListeners:(HwAvailableStorageCallback _Nonnull)callback;
 
+#pragma mark - 高原关爱
+- (void) setPlateauCareWithInterval:(NSInteger)interval
+                           callback:(HwBoolCallback _Nullable)callback;
+- (void) getPlateauCareWithCallback:(HwBCIntegerCallback _Nonnull)callback;
+
 #pragma mark - AI
 
 #pragma mark - AI智能体

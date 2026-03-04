@@ -1,11 +1,16 @@
 # AiSDK
 
-1.在Podfile添加：
-  pod 'AiSDK', :git => 'https://github.com/HWdan/HwAiSDK.git', :branch => 'main'
-  pod 'WatchfaceSDK', :git => 'https://github.com/HWdan/WatchfaceSDK.git', :branch => 'main'
+1.导入SDK：HwAiSDK.framework、WatchfaceSDK.framework、SifliOTAManagerSDK.framework、HwBluetoothSDK.framework、NativeLib.framework、eZIPSDK.framework、SFDialPlateSDK.framework
+
+导入资源图片：HwAiSDKResources.bundle
+
+2.在Podfile添加：
+  pod 'SSZipArchive'
+  pod 'Zip'
+  
   
 
-2.初始化- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions：
+3.初始化- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions：
 
     [[SifliWatchfaceSDK getInstance] initSDK];
     [HwAIManager sharedInstance] initSDK];
@@ -70,8 +75,6 @@
     [[AiSDK sharedInstance] setDeviceInfo:self.deviceInfo];
 }
 
-解绑后清空AiSDK设备信息：
-    [[AiSDK sharedInstance] cleanDeviceInfo];
 
 
 #pragma mark - ILog 代理
