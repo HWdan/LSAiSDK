@@ -122,6 +122,8 @@ typedef NS_ENUM(NSInteger, HwSocialSwitchType) {
     HwSocialSwitchTypeVK = 0x71,
     HwSocialSwitchTypeAlipay = 0x72,
     HwSocialSwitchTypeZalo = 0x73,
+    HwSocialSwitchTypeYandex = 0x76,
+    HwSocialSwitchTypeAvito = 0x77,
     HwSocialSwitchTypeMax = 0xFF,
     HwSocialSwitchTypeAgoda = 0xA0,
     HwSocialSwitchTypeAha = 0xA1,

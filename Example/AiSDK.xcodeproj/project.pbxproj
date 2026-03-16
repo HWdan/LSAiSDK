@@ -33,7 +33,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		662FBA36B402DCAF7FD6BE2E /* Pods_AiSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C53935C4E022C04029A6D10D /* Pods_AiSDK_Tests.framework */; };
-		9C4F4ED12F57DD93004ECA46 /* HwBluetoothSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C4F4ED02F57DD93004ECA46 /* HwBluetoothSDK.framework */; };
+		9C35670C2F67A827003FCE3F /* HwBluetoothSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C35670B2F67A827003FCE3F /* HwBluetoothSDK.framework */; };
 		9C70BB0C2F1F571A00B41977 /* SifliOTAManagerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C70BB082F1F570000B41977 /* SifliOTAManagerSDK.framework */; };
 		9C70BB0D2F1F571A00B41977 /* SifliOTAManagerSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9C70BB082F1F570000B41977 /* SifliOTAManagerSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9C70BB0E2F1F572100B41977 /* WatchfaceSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C70BB042F1F56D400B41977 /* WatchfaceSDK.framework */; };
@@ -114,7 +114,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		7A2F462F3E7B051F78C3ECAD /* Pods-AiSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AiSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-AiSDK_Tests/Pods-AiSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		98D28D18C9AAB82237CF4156 /* Pods-AiSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AiSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-AiSDK_Example/Pods-AiSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9C4F4ED02F57DD93004ECA46 /* HwBluetoothSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HwBluetoothSDK.framework; sourceTree = "<group>"; };
+		9C35670B2F67A827003FCE3F /* HwBluetoothSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HwBluetoothSDK.framework; sourceTree = "<group>"; };
 		9C70BB042F1F56D400B41977 /* WatchfaceSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WatchfaceSDK.framework; sourceTree = "<group>"; };
 		9C70BB082F1F570000B41977 /* SifliOTAManagerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SifliOTAManagerSDK.framework; sourceTree = "<group>"; };
 		9CBC82C62EFA6A1B00E28639 /* SFDialPlateSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SFDialPlateSDK.framework; sourceTree = "<group>"; };
@@ -134,7 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C70BB0E2F1F572100B41977 /* WatchfaceSDK.framework in Frameworks */,
-				9C4F4ED12F57DD93004ECA46 /* HwBluetoothSDK.framework in Frameworks */,
+				9C35670C2F67A827003FCE3F /* HwBluetoothSDK.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				9CBC82CF2EFA6C2B00E28639 /* SFDialPlateSDK.framework in Frameworks */,
 				9CBC82DB2EFA6CAC00E28639 /* eZIPSDK.framework in Frameworks */,
@@ -200,8 +200,8 @@
 			children = (
 				9CC610652F20BB9C00A69081 /* HwAiSDKResources.bundle */,
 				9CC610632F20BB8C00A69081 /* HwAiSDK.framework */,
+				9C35670B2F67A827003FCE3F /* HwBluetoothSDK.framework */,
 				9C70BB042F1F56D400B41977 /* WatchfaceSDK.framework */,
-				9C4F4ED02F57DD93004ECA46 /* HwBluetoothSDK.framework */,
 				9C70BB082F1F570000B41977 /* SifliOTAManagerSDK.framework */,
 				9CBC82D92EFA6C7F00E28639 /* NativeLib.framework */,
 				9CBC82D72EFA6C7300E28639 /* eZIPSDK.framework */,

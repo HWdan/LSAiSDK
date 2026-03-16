@@ -541,7 +541,7 @@ typedef NS_ENUM(NSInteger, HwWorkoutType)
 - (HwWorkout *) initWithData:(NSData *)data;
 - (HwWorkout *) initWithBigDataContent:(NSData *)bigDataContent;
 
-+ (NSArray<HwWorkout *> *) workoutsFromBigDataContent:(NSData *)bigDataContent;
++ (NSArray<HwWorkout *> *) workoutsFromBigDataContentV2:(NSData *)bigDataContent;
 
 @end
 
