@@ -19,4 +19,6 @@ typedef void(^FdOtaLogBlock)(NSString *logMessage);
 
 - (void)setFdOtaLogBlock:(FdOtaLogBlock)logBlock;
 
+- (void)setUseFixedErrorCrc:(BOOL)enabled;
+
 @end

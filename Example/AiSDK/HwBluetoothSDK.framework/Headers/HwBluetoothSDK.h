@@ -1459,7 +1459,17 @@ typedef void (^HwBtConnectionStateCallback)(BOOL connected);
 - (void) removeDeviceMusicStorageChangedListener:(HwAvailableStorageCallback _Nonnull)callback;
 - (void) removeAllDeviceMusicStorageChangedListeners:(HwAvailableStorageCallback _Nonnull)callback;
 
+#pragma mark - 高原关爱
+- (void) setPlateauCareWithInterval:(NSInteger)interval
+                           callback:(HwBoolCallback _Nullable)callback;
+- (void) getPlateauCareWithCallback:(HwBCIntegerCallback _Nonnull)callback;
+
 #pragma mark - AI
+
+#pragma mark - AI智能体
+- (void) setAiAgentsWithAiAgents:(NSArray<HwAiAgent *> * _Nonnull)aiAgents
+                                              callback:(HwBoolCallback _Nullable)callback;
+- (void) getAiAgentsWithCallback:(void(^_Nonnull)(NSArray<HwAiAgent *> *_Nullable aiAgents, NSError *_Nullable error))callback;
 
 /// Tell watch the app status
 /// @param appStatus HwAppState

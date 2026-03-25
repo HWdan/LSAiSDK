@@ -34,6 +34,10 @@ extern NSString *HwBD_OTACharacteristicNotificationUUID;
 extern NSString *HwBD_OTACharacteristicWriteUUID;
 extern NSString *HwBD_OTADUFVersion;
 
+extern NSString *HwBD_JL_OTAServiceUUID;
+extern NSString *HwBD_JL_OTACharacteristicNotificationUUID;
+extern NSString *HwBD_JL_OTACharacteristicWriteUUID;
+
 // userInfo : {data:NSData}
 extern NSString *HwBD_8001DidUpdateValueNotification;
 extern NSString *HwBD_8002DidUpdateValueNotification;
@@ -43,6 +47,7 @@ extern NSString *HwBD_8006DidUpdateValueNotification;
 extern NSString *HwBD_DidUpdateValueNotification;
 extern NSString *HwBD_DidUpdateValueLoggerNotification;
 extern NSString *HwBD_DidWriteValueLoggerNotification;
+extern NSString *HwBD_OTAJLDidUpdateValueNotification;
 
 // 心率值来的通知
 // userInfo : bpm:NSNumber
@@ -124,6 +129,7 @@ extern NSString *HwBluetoothDeviceReadyNotification;
 - (void) writeDataToOTAWriteCharacteristic:(NSData *)data;
 - (void) writeDataTo8001WriteCharacteristic:(NSData *)data;
 - (void) writeDataTo8005WriteCharacteristic:(NSData *)data;
+- (void) writeDataToOTAJLWriteCharacteristic:(NSData *)data;
 
 #pragma mark - RSSI
 /**

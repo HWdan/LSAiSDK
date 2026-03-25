@@ -1,7 +1,9 @@
 PODS:
   - ReactiveObjC (3.1.1)
   - SSZipArchive (2.4.3)
-  - SVProgressHUD (2.2.5)
+  - SVProgressHUD (2.3.1):
+    - SVProgressHUD/Core (= 2.3.1)
+  - SVProgressHUD/Core (2.3.1)
   - Zip (2.1.2)
 
 DEPENDENCIES:
@@ -20,9 +22,9 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
   SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
-  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SVProgressHUD: 4837c74bdfe2e51e8821c397825996a8d7de6e22
   Zip: b3fef584b147b6e582b2256a9815c897d60ddc67
 
-PODFILE CHECKSUM: 1fb2ea9a3b214eb6d2c8ca10637c2813ded9ce4e
+PODFILE CHECKSUM: dc4ddedd36c9691a8596940e9c0b811bf702caaa
 
 COCOAPODS: 1.16.2
