@@ -128,6 +128,11 @@ typedef NS_ENUM(NSInteger, HwLanguage) {
     HwLanguageCroatian = 0x2F,              // 克罗地亚语（Croatian）
     HwLanguageDanish = 0x30,                // 丹麦语（Danish）
     HwLanguageKurdishSorani = 0x31,         // 库尔德语-索拉尼（KurdishSorani）
+    HwLanguageArmenian = 0x33,              // 亚美尼亚语 Armenian
+    HwLanguageIrish = 0x34,                 // 爱尔兰语 Irish
+    HwLanguageGeorgian = 0x35,              // 格鲁吉亚语 Georgian
+    HwLanguageKazakh = 0x36,                // 哈萨克语 Kazakh
+    HwLanguageUzbek = 0x37,                 // 乌兹别克语 Uzbek
 };
 
 /*!

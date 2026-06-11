@@ -35,6 +35,9 @@
 #import "HwBluetoothCenter+BigDataSport.h"
 #import "HwBluetoothCenter+BleFileSender.h"
 #import "HwLS16.h"
+#import "HwDeviceInfo.h"
+#import "HwMuslimDayAlert.h"
+#import "HwBluetoothDeviceRequestManager.h"
 
 #define HwBluetoothSDK_Version @"3.2.10"
 
@@ -1147,6 +1150,11 @@ typedef void (^HwHeartrateAlarmCallback)(HwHeartrateAlarm *_Nullable hrAlarm, NS
 - (void) getLiftWristAwakenEnableWithCallback:(HwBoolCallback _Nonnull)callback;
 - (void) setLiftWristAwakenEnable:(BOOL)on callback:(HwBoolCallback _Nullable)callback;
 
+// 删除压力详情
+- (void) deleteStressWithCallback:(HwBoolCallback _Nullable)callback;
+// 删除血氧详情
+- (void) deleteBloodOxygenWithCallback:(HwBoolCallback _Nullable)callback;
+
 #pragma mark - 用户相关API接口[API port]
 #pragma mark - 用户信息[user's information]
 /*! @brief
@@ -1454,6 +1462,7 @@ typedef void (^HwBtConnectionStateCallback)(BOOL connected);
 
 - (void) getMusicAvailableStorageWithCallback:(HwAvailableStorageCallback _Nonnull)callback;
 - (void) getOfflineMapAvailableStorageWithCallback:(HwBCIntegerCallback _Nonnull)callback;
+- (void) getCoustomInterfaceAvailableStorageWithCallback:(HwBCIntegerCallback _Nonnull)callback;
 
 - (void) addDeviceMusicStorageChangedListener:(HwAvailableStorageCallback _Nonnull)callback;
 - (void) removeDeviceMusicStorageChangedListener:(HwAvailableStorageCallback _Nonnull)callback;
@@ -1615,6 +1624,10 @@ typedef void (^HwBtConnectionStateCallback)(BOOL connected);
 - (void) getCollectedAllahIndexsWithCallback:(HwCollectedAllahIndexsCallback _Nonnull)callback;
 - (void) setCollectedAllahIndexs:(NSArray<NSNumber *> *_Nonnull)list
                         callback:(HwBoolCallback _Nullable)callback;
+
+- (void) setPrayerAlertTime:(NSArray<HwMuslimDayAlert *> *_Nonnull)dayAlertList
+                   callback:(HwBoolCallback _Nullable)callback;
+- (void) getPrayerAlertTimeWithCallback:(HwBoolCallback _Nullable)callback;
 
 - (void) setAiSubscriptionInfoWithType:(NSInteger) type
                              startTime:(NSTimeInterval)startTime

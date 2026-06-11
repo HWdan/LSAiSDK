@@ -550,6 +550,22 @@ Get heart rate data from device
 /// @param callback 返回心率model数组
 - (HwBluetoothTask *_Nullable) quickGetHeartRateInfoModels:(NSUInteger)num callback:(HwHeartRateInfoArrayCallback _Nullable)callback;
 
+/**
+ 删除压力详情
+ 
+ @param callback 成功与否回调[callback successfully or not]
+ @return 任务[task]
+ */
+- (HwBluetoothTask *_Nullable) deleteStressWithCallback:(HwBoolCallback _Nullable)callback;
+
+/**
+ 删除血氧详情
+ 
+ @param callback 成功与否回调[callback successfully or not]
+ @return 任务[task]
+ */
+- (HwBluetoothTask *_Nullable) deleteBloodOxygenWithCallback:(HwBoolCallback _Nullable)callback;
+
 
 #pragma mark - calorie
 // 基础卡路里（非运动状态下，自动生成的卡路里）[basic calorie(under non-sport situation, autogeneration calorie )]
