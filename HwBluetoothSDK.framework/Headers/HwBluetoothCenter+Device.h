@@ -239,6 +239,14 @@
 - (HwBluetoothTask *_Nullable) getDeviceTimeWithCallback:(HwDateCallback _Nullable)callback;
 
 /*! @brief
+ 关闭设备 [shutdown watch]
+ 
+ @param callback bool回调
+ @return task
+ */
+- (HwBluetoothTask *_Nullable) shutdownDeviceWithCallback:(HwBoolCallback _Nullable)callback;
+
+/*! @brief
  重启设备 [reset watch]
  
  @param callback bool回调
@@ -840,6 +848,7 @@ typedef void (^HwQrcodeCardsCallback)(NSArray<HwQrCard *> *_Nullable cards, NSEr
 
 - (HwBluetoothTask *_Nullable) getMusicAvailableStorageWithCallback:(HwAvailableStorageCallback _Nonnull)callback;
 - (HwBluetoothTask *_Nullable) getOfflineMapAvailableStorageWithCallback:(HwBCIntegerCallback _Nonnull)callback;
+- (HwBluetoothTask *_Nullable) getCoustomInterfaceAvailableStorageWithCallback:(HwBCIntegerCallback _Nonnull)callback;
 - (void) addDeviceMusicStorageChangedListener:(HwAvailableStorageCallback _Nonnull)callback;
 - (void) removeDeviceMusicStorageChangedListener:(HwAvailableStorageCallback _Nonnull)callback;
 - (void) removeAllDeviceMusicStorageChangedListeners;

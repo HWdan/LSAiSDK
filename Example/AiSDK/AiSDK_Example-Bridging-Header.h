@@ -4,3 +4,6 @@
 
 #import "HwBluetoothSDK/HwBluetoothSDK.h"
 #import <SVProgressHUD.h>
+//#import "HwBluetoothSDK/HwBluetoothSDK.h"
+//#import "HwAiSDK/AiSDK.h"
+//#import "HwAiSDK/AiImageUtils.h"

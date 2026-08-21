@@ -51,7 +51,9 @@ typedef NS_ENUM(NSInteger, HwDeviceEvent)
     HwDeviceEventSyncWeather = 0x07,
     HwDeviceEventSyncAgps = 0x08,
     HwDeviceEventHeartRateMonitorFailed = 0x09,
-    HwDeviceEventSyncLocation = 0x13
+    HwDeviceEventOtaBeat = 0x0b,
+    HwDeviceEventSyncLocation = 0x13,
+    HwDeviceEventSyncPhoneCalendars = 0x14,
 };
 
 typedef NS_ENUM(NSInteger, HwAiType)

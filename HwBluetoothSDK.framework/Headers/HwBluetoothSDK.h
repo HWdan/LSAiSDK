@@ -8,7 +8,13 @@
 #import "HwBluetoothCenter+Sport.h"
 #import "HwBluetoothCenter+Device.h"
 #import "HwBluetoothCenter+User.h"
+#import "HwBluetoothCenter+DrinkWater.h"
+#import "HwBluetoothCenter+PhoneSchedule.h"
+#import "HwBluetoothCenter+StandingSetting.h"
 #import "HwBluetoothCenter+Ota.h"
+#import "HwOtaV2Service.h"
+#import "HwMultipleFileTransferModel.h"
+#import "HwMultipleFileTransferService.h"
 #import "HwBluetoothCenter+FileDifferenceOta.h"
 #import "HwBluetoothCenter+Expand.h"
 #import "HwBluetoothCenter+StatusSetting.h"
@@ -35,8 +41,18 @@
 #import "HwBluetoothCenter+BigDataSport.h"
 #import "HwBluetoothCenter+BleFileSender.h"
 #import "HwLS16.h"
+#import "HwDeviceInfo.h"
+#import "HwMuslimDayAlert.h"
+#import "HwBluetoothDeviceRequestManager.h"
+#import "HwBluetoothDeviceRequestManager+DrinkWaterRecords.h"
 
 #define HwBluetoothSDK_Version @"3.2.10"
+
+typedef NS_ENUM(NSInteger, HWPlatformType) {
+    HWPlatformTypeSifli = 0,
+    HWPlatformTypeRealtek,
+    HWPlatformTypeJieLi,
+};
 
 /**
  3.2.10:
@@ -92,6 +108,8 @@
 + (HwBluetoothSDK *_Nonnull) sharedInstance;
 
 #pragma mark - SDK init
+@property (nonatomic, strong, readonly, nullable) HwOtaV2Service *otaV2Service;
+@property (nonatomic, strong, readonly) HwMultipleFileTransferService *multipleFileTransferService;
 /**
  Initialize the SDK. The SDK initializes some parameters and statuses and starts listening for status changes.
  */
@@ -480,6 +498,14 @@ Start to bind with watch
  
  */
 - (void) getDeviceTimeWithCallback:(HwDateCallback _Nullable)callback;
+
+/*! @brief
+ Power off the watch
+ 
+ @param callback bool
+ 
+ */
+- (void) shutdownDeviceWithCallback:(HwBoolCallback _Nullable)callback;
 
 /*! @brief
  Restart the watch
@@ -1147,6 +1173,13 @@ typedef void (^HwHeartrateAlarmCallback)(HwHeartrateAlarm *_Nullable hrAlarm, NS
 - (void) getLiftWristAwakenEnableWithCallback:(HwBoolCallback _Nonnull)callback;
 - (void) setLiftWristAwakenEnable:(BOOL)on callback:(HwBoolCallback _Nullable)callback;
 
+// 删除压力详情
+- (void) deleteStressWithCallback:(HwBoolCallback _Nullable)callback;
+// 删除血氧详情
+- (void) deleteBloodOxygenWithCallback:(HwBoolCallback _Nullable)callback;
+// 删除hrv详情
+- (void) deleteHrvWithCallback:(HwBoolCallback _Nullable)callback;
+
 #pragma mark - 用户相关API接口[API port]
 #pragma mark - 用户信息[user's information]
 /*! @brief
@@ -1189,6 +1222,25 @@ typedef void (^HwHeartrateAlarmCallback)(HwHeartrateAlarm *_Nullable hrAlarm, NS
 
 - (void) setDrinkWaterConfig:(HwDrinkWaterConfig *_Nonnull)config
                     callback:(HwBoolCallback _Nullable)callback;
+
+#pragma mark - Drink water records
+- (void) getAvailableDrinkWaterRecordIdsWithCallback:(HwDrinkWaterRecordIdsCallback _Nonnull)callback;
+- (void) getAllDrinkWaterRecordsWithCallback:(HwDrinkWaterRecordsCallback _Nonnull)callback;
+- (void) addDrinkWaterRecord:(HwDrinkWaterRecord *_Nonnull)record callback:(HwBoolCallback _Nullable)callback;
+- (void) editDrinkWaterRecord:(HwDrinkWaterRecord *_Nonnull)record callback:(HwBoolCallback _Nullable)callback;
+- (void) deleteDrinkWaterRecordWithId:(NSInteger)recordId callback:(HwBoolCallback _Nullable)callback;
+- (void) deleteAllDrinkWaterRecordsWithCallback:(HwBoolCallback _Nullable)callback;
+- (void) setAllDrinkWaterRecords:(NSArray<HwDrinkWaterRecord *> *_Nonnull)records callback:(HwBoolCallback _Nullable)callback;
+- (void) addDrinkWaterRecordsChangedListener:(HwDrinkWaterRecordsChangedCallback _Nonnull)callback;
+- (void) removeDrinkWaterRecordsChangedListener:(HwDrinkWaterRecordsChangedCallback _Nonnull)callback;
+- (void) removeAllDrinkWaterRecordsChangedListeners;
+
+#pragma mark - Phone schedule sync
+- (void) syncPhoneSchedules:(NSArray<HwPhoneScheduleEvent *> *_Nonnull)events callback:(HwBoolCallback _Nullable)callback;
+
+#pragma mark - Standing setting
+- (void) getStandingSettingWithCallback:(HwStandingSettingCallback _Nonnull)callback;
+- (void) setStandingSetting:(HwStandingSetting *_Nonnull)setting callback:(HwBoolCallback _Nullable)callback;
 
 #pragma mark - Workout APIs
 - (void) getWorkoutsWithCallback:(HwWorkoutsCallback _Nonnull)callback;
@@ -1454,12 +1506,23 @@ typedef void (^HwBtConnectionStateCallback)(BOOL connected);
 
 - (void) getMusicAvailableStorageWithCallback:(HwAvailableStorageCallback _Nonnull)callback;
 - (void) getOfflineMapAvailableStorageWithCallback:(HwBCIntegerCallback _Nonnull)callback;
+- (void) getCoustomInterfaceAvailableStorageWithCallback:(HwBCIntegerCallback _Nonnull)callback;
 
 - (void) addDeviceMusicStorageChangedListener:(HwAvailableStorageCallback _Nonnull)callback;
 - (void) removeDeviceMusicStorageChangedListener:(HwAvailableStorageCallback _Nonnull)callback;
 - (void) removeAllDeviceMusicStorageChangedListeners:(HwAvailableStorageCallback _Nonnull)callback;
 
+#pragma mark - 高原关爱
+- (void) setPlateauCareWithInterval:(NSInteger)interval
+                           callback:(HwBoolCallback _Nullable)callback;
+- (void) getPlateauCareWithCallback:(HwBCIntegerCallback _Nonnull)callback;
+
 #pragma mark - AI
+
+#pragma mark - AI智能体
+- (void) setAiAgentsWithAiAgents:(NSArray<HwAiAgent *> * _Nonnull)aiAgents
+                                              callback:(HwBoolCallback _Nullable)callback;
+- (void) getAiAgentsWithCallback:(void(^_Nonnull)(NSArray<HwAiAgent *> *_Nullable aiAgents, NSError *_Nullable error))callback;
 
 /// Tell watch the app status
 /// @param appStatus HwAppState
@@ -1606,6 +1669,10 @@ typedef void (^HwBtConnectionStateCallback)(BOOL connected);
 - (void) setCollectedAllahIndexs:(NSArray<NSNumber *> *_Nonnull)list
                         callback:(HwBoolCallback _Nullable)callback;
 
+- (void) setPrayerAlertTime:(NSArray<HwMuslimDayAlert *> *_Nonnull)dayAlertList
+                   callback:(HwBoolCallback _Nullable)callback;
+- (void) getPrayerAlertTimeWithCallback:(HwBoolCallback _Nullable)callback;
+
 - (void) setAiSubscriptionInfoWithType:(NSInteger) type
                              startTime:(NSTimeInterval)startTime
                                endTime:(NSTimeInterval)endTime
@@ -1621,5 +1688,3 @@ typedef void (^HwBtConnectionStateCallback)(BOOL connected);
 - (void) removeAiSubscriptionInfoRequestListener:(HwAiSubscriptionInfoRequestCallback _Nonnull)callback;
 - (void) removeAllAiSubscriptionInfoRequestListeners;
 @end
-
-

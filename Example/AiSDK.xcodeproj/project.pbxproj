@@ -611,7 +611,7 @@
 				);
 				INFOPLIST_FILE = "AiSDK/AiSDK-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = AiTest;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MODULE_NAME = ExampleApp;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -670,7 +670,7 @@
 				);
 				INFOPLIST_FILE = "AiSDK/AiSDK-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = AiTest;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MODULE_NAME = ExampleApp;
 				OTHER_LDFLAGS = (
 					"$(inherited)",

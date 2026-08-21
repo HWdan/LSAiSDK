@@ -128,6 +128,19 @@ typedef NS_ENUM(NSInteger, HwLanguage) {
     HwLanguageCroatian = 0x2F,              // 克罗地亚语（Croatian）
     HwLanguageDanish = 0x30,                // 丹麦语（Danish）
     HwLanguageKurdishSorani = 0x31,         // 库尔德语-索拉尼（KurdishSorani）
+    HwLanguageArmenian = 0x33,              // 亚美尼亚语 Armenian
+    HwLanguageIrish = 0x34,                 // 爱尔兰语 Irish
+    HwLanguageGeorgian = 0x35,              // 格鲁吉亚语 Georgian
+    HwLanguageKazakh = 0x36,                // 哈萨克语 Kazakh
+    HwLanguageUzbek = 0x37,                 // 乌兹别克语 Uzbek
+    HwLanguageTelugu = 0x38,                // 泰卢固语 Telugu
+    HwLanguageTamil = 0x39,                 // 泰米尔语 Tamil
+    HwLanguageMarathi = 0x3A,               // 马拉地语 Marathi
+    HwLanguageKannada = 0x3B,               // 卡纳达语 Kannada
+    HwLanguageGujarati = 0x3C,              // 古吉拉特语 Gujarati
+    HwLanguageSerbian = 0x3D,              // 塞尔维亚语 Serbian
+    HwLanguageMacedonian = 0x3E,              // 马其顿语 Macedonian
+    HwLanguageAlbanian = 0x3F,              // 阿尔巴尼亚语 Albanian
 };
 
 /*!
