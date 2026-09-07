@@ -126,6 +126,7 @@ typedef NS_ENUM(NSInteger, AiError) {
 @property(nonatomic, assign) AiStyle aiStyle;
 @property(nonatomic, assign) BOOL isAiWatchfaceWorking;
 @property(nonatomic, strong) id<AiSDKCallback> callback;
+@property(nonatomic, copy) NSString *paiReplaceString;
 
 - (void) setDeviceInfo:(AiDeviceInfo *)deviceInfo;
 - (AiDeviceInfo *) getDeviceInfo;
