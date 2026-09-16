@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0108272EFF98A1F12898F375 /* Pods_AiSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA9D24958491033456DFBB4 /* Pods_AiSDK_Example.framework */; };
-		2B1019462F6A4C2F00B6F259 /* HwAiSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2B1019452F6A4C2F00B6F259 /* HwAiSDKResources.bundle */; };
 		2BC74C2E2D2FC30A002F72D2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC74C2D2D2FC30A002F72D2 /* LaunchScreen.xib */; };
 		2BC74C322D2FC389002F72D2 /* HwMainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC74C312D2FC389002F72D2 /* HwMainVC.xib */; };
 		2BC74C332D2FC389002F72D2 /* HwMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC74C302D2FC389002F72D2 /* HwMainVC.m */; };
@@ -47,6 +46,8 @@
 		9CBC82D42EFA6C3600E28639 /* SifliOTAManagerSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9CBC82C72EFA6A1B00E28639 /* SifliOTAManagerSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9CBC82DD2EFA6CB300E28639 /* NativeLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CBC82D92EFA6C7F00E28639 /* NativeLib.framework */; };
 		9CBC82DE2EFA6CB300E28639 /* NativeLib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9CBC82D92EFA6C7F00E28639 /* NativeLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9CCD77BA3053DAA70071E8A4 /* HwAiSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9CCD77B93053DAA70071E8A4 /* HwAiSDKResources.bundle */; };
+		9CCD78313053DBB10071E8A4 /* WatchfaceResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9CCD78303053DBB10071E8A4 /* WatchfaceResources.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,7 +83,6 @@
 		0ABCF5CD80EE6FF6A2D57F1F /* Pods-AiSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AiSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-AiSDK_Example/Pods-AiSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		0BA9D24958491033456DFBB4 /* Pods_AiSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AiSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		142EF9344C2708F838CDAE24 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		2B1019452F6A4C2F00B6F259 /* HwAiSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HwAiSDKResources.bundle; sourceTree = "<group>"; };
 		2B7689982D2F5F5700F6E046 /* AiSDK_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AiSDK_Example-Bridging-Header.h"; sourceTree = "<group>"; };
 		2BC74C2D2D2FC30A002F72D2 /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		2BC74C2F2D2FC389002F72D2 /* HwMainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HwMainVC.h; sourceTree = "<group>"; };
@@ -124,6 +124,8 @@
 		9CBC82C62EFA6A1B00E28639 /* SFDialPlateSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SFDialPlateSDK.framework; sourceTree = "<group>"; };
 		9CBC82C72EFA6A1B00E28639 /* SifliOTAManagerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SifliOTAManagerSDK.framework; sourceTree = "<group>"; };
 		9CBC82D92EFA6C7F00E28639 /* NativeLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NativeLib.framework; sourceTree = "<group>"; };
+		9CCD77B93053DAA70071E8A4 /* HwAiSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HwAiSDKResources.bundle; sourceTree = "<group>"; };
+		9CCD78303053DBB10071E8A4 /* WatchfaceResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WatchfaceResources.bundle; sourceTree = "<group>"; };
 		9F7A4C2D9D400A1BEBEA13B1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BAEA22DA428A6AA687BC19BC /* AiSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AiSDK.podspec; path = ../AiSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C53935C4E022C04029A6D10D /* Pods_AiSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AiSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -204,8 +206,9 @@
 				9C7A9B9030510F4600C4AB23 /* WatchfaceSDK.framework */,
 				9C7A9B8E30510F2C00C4AB23 /* eZIPSDK.xcframework */,
 				9C33D8FE2FDAB3B2003A97ED /* HwBluetoothSDK.framework */,
-				2B1019452F6A4C2F00B6F259 /* HwAiSDKResources.bundle */,
 				9CBC82D92EFA6C7F00E28639 /* NativeLib.framework */,
+				9CCD78303053DBB10071E8A4 /* WatchfaceResources.bundle */,
+				9CCD77B93053DAA70071E8A4 /* HwAiSDKResources.bundle */,
 				9CBC82C62EFA6A1B00E28639 /* SFDialPlateSDK.framework */,
 				9CBC82C72EFA6A1B00E28639 /* SifliOTAManagerSDK.framework */,
 				2BC74D6A2D351549002F72D2 /* girl.jpeg */,
@@ -369,10 +372,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CCD78313053DBB10071E8A4 /* WatchfaceResources.bundle in Resources */,
 				2BC74C2E2D2FC30A002F72D2 /* LaunchScreen.xib in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				2BC74C362D2FCD41002F72D2 /* LogCell.xib in Resources */,
-				2B1019462F6A4C2F00B6F259 /* HwAiSDKResources.bundle in Resources */,
+				9CCD77BA3053DAA70071E8A4 /* HwAiSDKResources.bundle in Resources */,
 				2BC74C322D2FC389002F72D2 /* HwMainVC.xib in Resources */,
 				2BC74C3A2D2FD4DE002F72D2 /* ConnectVC.xib in Resources */,
 				2BC74D6B2D351549002F72D2 /* girl.jpeg in Resources */,
